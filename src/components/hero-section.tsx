@@ -5,48 +5,36 @@ import React from "react";
 import { cubicBezier } from "framer-motion";
 
 export default function Hello() {
-
-
   return (
     <>
       <ShootingStars />
-        
       <StarsBackground />
       <div className="h-screen flex flex-col justify-center max-w-screen-xl px-6 md:px-10 mx-auto">
         <div>
-          <div className="leading-tight font-bold animate-dimmed">
+          <div className="font-bold">
             <h1>
-              <span className="opacity-30 animate-dimmed [animation-delay:1400ms]">
-                <span className="animate-hand-wave inline-block origin-[70%_70%] [animation-delay:2700ms] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl">
-                  👋
-                </span>
+              <span className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl  animate-fade animate-once animate-delay-100">
+                Hi, I&apos;m Restu
+              </span>
+              <span className="text-5xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-8xl animate-bounce inline-block origin-[70%_70%] [animation-delay:0ms] ">
+                🌻
+              </span>
 
-                <span></span>
-                <span className=" opacity-30 animate-dimmed delay-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl">
-                  Hi, I&apos;m
-                </span>
-                <span className="text-red-400 opacity-30 animate-dimmed delay-500 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl">
-                  <p>Geo-informatician</p>
-                </span>
+              <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-yellow-200 animate-fade-right delay-1000 ">
+                <p className="mt-6">A Geoinformatician </p>
               </span>
-              <span className="sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl opacity-30 animate-dimmed [animation-delay:1700ms]">
-                <p>I focus on my skills in</p>
+              <span className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl animate-fade-right delay-500">
+                <p>focus on my skills in</p>
               </span>
-              <span
-                url="#technologies"
-                imageSrc="images/technologies.jpeg"
-                isStatic
-              >
-                <span className="text-red-200 opacity-30 animate-dimmed [animation-delay:800ms] text-3xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-7xl">
-                  <p>Full-Stack Developer</p>
-                </span>
+              <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-yellow-200 opacity-30 animate-fade-right delay-1000">
+                <p>Full-Stack Developer </p>
               </span>
               <span>
-                <span className="sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl opacity-30 animate-dimmed [animation-delay:1700ms]">
-                  <p>and or</p>
+                <span className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl animate-fade-right delay-500">
+                  <p>and</p>
                 </span>
-                <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl text-yellow-200 opacity-30 animate-dimmed [animation-delay:1100ms]">
-                  <p>Web-based Geographic Information System (GIS) Developer</p>
+                <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-yellow-200 animate-fade-right delay-1000">
+                  <p>Web-based GIS Developer</p>
                 </span>
               </span>
             </h1>

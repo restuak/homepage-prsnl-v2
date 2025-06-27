@@ -5,11 +5,18 @@ import { Wix_Madefor_Display } from "next/font/google";
 import "./globals.css";
 import { Suspense } from "react";
 import Loading from "@/components/loading";
+import { Roboto } from "next/font/google";
 // import SmoothScrolling from "@/components/smooth-scroll";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const roboto = Roboto({
+  variable: "--font-roboto",
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
 });
 
 const geistMono = Geist_Mono({
