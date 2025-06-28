@@ -12,9 +12,8 @@ export default function Navbar() {
       <div className="cursor-pointer">
         <span
           className="text-xl md:text-2xl font-semibold tracking-wide"
-
         >
-          <div href="#home" className="text-white ">
+          <div className="text-white ">
             <span className="animate-bounce">^_^</span>
           </div>
         </span>
@@ -40,8 +39,6 @@ export default function Navbar() {
         </span>
         <span
           className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-
-            
         >
           Contact
         </span>
