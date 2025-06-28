@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.10",
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.1",
