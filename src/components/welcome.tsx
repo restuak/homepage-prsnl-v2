@@ -54,11 +54,6 @@ export default function Welcome() {
         <div
           className="absolute bottom-0 left-0 w-full flex justify-center pb-10 overflow-y-hidden"
           onClick={() =>
-             &&
-            .scrollTo("#about", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
             })
           }
         >
