@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Suspense } from "react";
 export const metadata: Metadata = {
   title: "Restu Aka Personal Website",
   description: "Restu Aka Personal Website",

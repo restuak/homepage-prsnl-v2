@@ -1,6 +1,4 @@
 import { RiArrowDownWideFill } from "react-icons/ri";
-import { ShootingStars } from "./shooting-stars";
-import { StarsBackground } from "./stars-background";
 import React from "react";
 
 
