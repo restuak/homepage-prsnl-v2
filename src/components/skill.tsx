@@ -1,7 +1,7 @@
 
 export default function Skill () {
   return (
-    <section className="bg-[#09090b]">
+    <section className="bg-[10090b]">
       <div className="h-screen flex flex-col justify-center max-w-screen-xl px-6 md:px-10 mx-auto">
         <div className="font-bold">
           <h1 className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl">
