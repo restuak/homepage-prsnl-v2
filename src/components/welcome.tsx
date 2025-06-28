@@ -7,8 +7,7 @@ import React from "react";
 export default function Welcome() {
   return (
     <>
-      <ShootingStars />
-      <StarsBackground />
+ 
       <div className="h-screen flex flex-col justify-center max-w-screen-xl px-6 md:px-10 mx-auto">
         <div>
           <div className="font-bold ">
