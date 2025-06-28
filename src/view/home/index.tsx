@@ -1,10 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-
-import Aos from "aos";
-import "aos/dist/aos.css";
-
-import HeroSection from "@/components/hero-section";
+import Welcome from "@/components/welcome";
 import Loading from "@/components/loading";
 import Navbar from "@/components/navbar";
 
@@ -19,22 +15,13 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    Aos.init({
-      offset: 100,
-      once: true,
-    });
-  });
-
   return (
     <main className="">
       {isLoading ? (
-        <Loading />
-      ) : (
-        <div className="" id="home">
+        <Loading /> ) : (
+        <div id="home">
           <Navbar />
-
-          <HeroSection />
+          <Welcome />
         </div>
       )}
     </main>
