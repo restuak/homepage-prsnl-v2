@@ -1,4 +1,3 @@
-import { cubicBezier } from "framer-motion";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -13,14 +12,7 @@ export default function Navbar() {
       <div className="cursor-pointer">
         <span
           className="text-xl md:text-2xl font-semibold tracking-wide"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#home", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
+
         >
           <div href="#home" className="text-white ">
             <span className="animate-bounce">^_^</span>
@@ -31,53 +23,25 @@ export default function Navbar() {
       <div className=" hidden md:flex items-center gap-10 text-lg font-semibold tracking-wide">
         <span
           className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#about", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
-        >
+>
           About
         </span>
         <span
           className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#projects", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
+
         >
           Experience
         </span>
         <span
           className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#technologies", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
+
         >
           Skill
         </span>
         <span
           className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#contact", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
+
+            
         >
           Contact
         </span>
@@ -108,53 +72,28 @@ export default function Navbar() {
       >
         <span
           className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#about", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
+
+    
         >
           About
         </span>
         <span
           className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#projects", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
+
+      
         >
           Experience
         </span>
         <span
           className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#technologies", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
+
         >
           Skill
         </span>
         <span
           className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-          onClick={() =>
-            lenis &&
-            lenis.scrollTo("#contact", {
-              offset: -100,
-              easing: cubicBezier(0.65, 0, 0.35, 1),
-              duration: 1,
-            })
-          }
+
+  
         >
           Contact
         </span>
