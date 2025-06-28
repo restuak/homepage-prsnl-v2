@@ -1,16 +1,84 @@
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { BsPersonWorkspace } from "react-icons/bs";
 
-export default function Experience () {
+export default function Experience() {
   return (
     <section className="bg-[#10090b]">
-      <div className="h-screen flex flex-col justify-center max-w-screen-xl px-6 md:px-10 mx-auto">
-        <div className="font-bold">
-          <h1 className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl">
-            Experience
-          </h1>
-          <p className="mt-4 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
-            I have worked on various projects that combine GIS and web
-            development.
+      <div className="h-100% max-w-screen-xl pt-6 mx-auto">
+        <div className="flex flex-col items-center ">
+          <p className="p-10 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-yellow-200">
+            MY EXPERIENCE
           </p>
+          <p className="m-6 mt-0 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center">
+            I have been working in the field of Geoinformatics and Web-based GIS
+            for several years, focusing on Full-Stack Development and Geographic
+            Information System (GIS) development.
+          </p>
+
+          <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  rgb(33, 150, 243)",
+              }}
+              date="2011 - present"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<BsPersonWorkspace />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Creative Director
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+              <p>
+                Creative Direction, User Experience, Visual Design, Project
+                Management, Team Leading
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2010 - 2011"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<BsPersonWorkspace />}
+            >
+              <h3 className="vertical-timeline-element-title">Art Director</h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                San Francisco, CA
+              </h4>
+              <p>
+                Creative Direction, User Experience, Visual Design, SEO, Online
+                Marketing
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2008 - 2010"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<BsPersonWorkspace />}
+            >
+              <h3 className="vertical-timeline-element-title">Web Designer</h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Los Angeles, CA
+              </h4>
+              <p>User Experience, Visual Design</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="2006 - 2008"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              icon={<BsPersonWorkspace />}
+            >
+              <h3 className="vertical-timeline-element-title">Web Designer</h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                San Francisco, CA
+              </h4>
+              <p>User Experience, Visual Design</p>
+            </VerticalTimelineElement>
+          </VerticalTimeline>
         </div>
       </div>
     </section>

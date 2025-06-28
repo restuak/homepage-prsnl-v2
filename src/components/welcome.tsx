@@ -8,10 +8,10 @@ export default function Welcome() {
         <div>
           <div className="font-bold ">
             <h1>
-              <span className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl animate-fade animate-once animate-delay-100">
+              <span className="text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl animate-fade animate-once animate-delay-120">
                 Hi, I&apos;m Restu
               </span>
-              <span className="text-5xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-8xl animate-bounce inline-block origin-[70%_70%] [animation-delay:0ms] ">
+              <span className="text-5xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-8xl animate-bounce inline-block origin-[70%_70%]">
                 🌻
               </span>
               <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-yellow-200">
