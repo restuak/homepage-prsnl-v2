@@ -1,11 +1,9 @@
 import { RiArrowDownWideFill } from "react-icons/ri";
 import React from "react";
 
-
 export default function Welcome() {
   return (
     <>
- 
       <div className="h-screen flex flex-col justify-center max-w-screen-xl px-6 md:px-10 mx-auto">
         <div>
           <div className="font-bold ">
@@ -47,9 +45,7 @@ export default function Welcome() {
           </div>
         </div>
 
-        <div
-          className="absolute bottom-0 left-0 w-full flex justify-center pb-10 overflow-y-hidden"
-        >
+        <div className="absolute bottom-0 left-0 w-full flex justify-center pb-10 overflow-y-hidden">
           <div className="animate-fade-up animate-once animate-delay-2000 animate-ease-out z-20 flex flex-col items-center cursor-pointer">
             <span className="animate-bounce text-4xl text-bold ">
               <RiArrowDownWideFill />

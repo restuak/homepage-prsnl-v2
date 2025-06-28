@@ -10,9 +10,7 @@ export default function Navbar() {
   return (
     <div className="animate-fade-down animate-once animate-delay-2000 animate-ease-out flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full bg-slate-950/50 backdrop-blur-md z-50">
       <div className="cursor-pointer">
-        <span
-          className="text-xl md:text-2xl font-semibold tracking-wide"
-        >
+        <span className="text-xl md:text-2xl font-semibold tracking-wide">
           <div className="text-white ">
             <span className="animate-bounce">^_^</span>
           </div>
@@ -20,26 +18,16 @@ export default function Navbar() {
       </div>
 
       <div className=" hidden md:flex items-center gap-10 text-lg font-semibold tracking-wide">
-        <span
-          className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
->
+        <span className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           About
         </span>
-        <span
-          className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-
-        >
+        <span className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           Experience
         </span>
-        <span
-          className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-
-        >
+        <span className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           Skill
         </span>
-        <span
-          className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-        >
+        <span className="hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           Contact
         </span>
       </div>
@@ -67,31 +55,16 @@ export default function Navbar() {
           isMenuOpen ? "-translate-y-[-424px]" : ""
         } transition-all duration-100 ease-in-out`}
       >
-        <span
-          className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-
-    
-        >
+        <span className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           About
         </span>
-        <span
-          className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-
-      
-        >
+        <span className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           Experience
         </span>
-        <span
-          className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-
-        >
+        <span className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           Skill
         </span>
-        <span
-          className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer"
-
-  
-        >
+        <span className="text-lg font-semibold tracking-wide hover:text-yellow-400 transition-all duration-200 ease-in-out cursor-pointer">
           Contact
         </span>
       </div>
