@@ -6,11 +6,11 @@ export default function AboutFull() {
       <main className="">
         <div className="h-screen">
           <div className="absolute top-140 w-full items-center justify-center text-center">
-            {/* <ScrollVelocity
+            <ScrollVelocity
               texts={["restuaka","fullstackdeveloper"]}
               velocity={180}
               className="bg-none text-cyan-600 text-9xl tracking-widest font-light"
-            /> */}
+            />
           </div>
           <div style={{}}>
             <GridDistortion
