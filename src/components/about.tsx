@@ -1,38 +1,59 @@
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { motion } from "motion/react";
 export default function About() {
   return (
-    <section className="bg-[#09090b]">
-      <div className="h-100% max-w-screen-xl pt-6 mx-auto">
-        <div className="flex flex-col items-center ">
-          <p className="p-10 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-cyan-400">
-            LITTLE BIT OF ME
-          </p>
+    <div className="bg-black">
+      <div className="relative flex flex-col mt-10 items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
+        <motion.div 
+        initial={{ x: 200, opacity: 0 }}
+          whileInView={{ x: 10, opacity: 1 }}
+          transition={{
+            type: "spring",
+          }}
+        className="w-full h-64 lg:w-1/2 lg:h-auto">
           <Image
-            src="/profile.jpg"
-            alt="Profile Picture"
-            width={275}
-            height={275}
-            className="rounded-full mt-10 mb-4 border-b-yellow-200"
+            src="/1.jpg"
+            alt="Winding Mountain Road"
+            width={800}
+            height={600}
+            className="object-cover w-full h-full rounded-lg shadow-lg md:rounded-none md:shadow-none lg:rounded-lg lg:shadow-lg xl:rounded-none xl:shadow-none"
           />
-          <p className="m-6 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center">
-            I’m a Geodetic & Geomatics Engineer (Geoinformatician). Lifelong
-            Learner.
-          </p>
-          <p className="m-6 mt-0 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center">
-            Now, I focus on my learning in Full-Stack Website Developer for
-            support my skill in Geographic Information System (GIS) Developer to
-            build Web-based Geographic Information System (GIS). Cheers. 🌻
-          </p>
-          <p className="m-6 mt-0 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center">
-            I have an interest in hobbies such as writing essays on music and
-            social topics.
-          </p>
-          <p className="m-6 mt-0 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center">
-            Simply, I am a Geoinformatician with a passion for Web-based GIS and
-            Full-Stack Developer and have hobbies in writing essays.
-          </p>
-        </div>
+        </motion.div>
+        <motion.div
+          initial={{ x: -200, opacity: 0 }}
+          whileInView={{ x: 10, opacity: 1 }}
+          transition={{
+            type: "spring",
+          }}
+          class="max-w-lg rounded-4xl bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12"
+          // data-aos="fade-right"
+          // data-aos-offset="300"
+          // data-aos-easing="ease-in-sine"
+        >
+          <div className="flex flex-col p-12 md:px-16 ">
+            <h2 className="text-2xl font-medium uppercase text-cyan-600 lg:text-4xl ">
+              LITTLE BIT ABOUT ME
+            </h2>
+            <p className="mt-4 text-black">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <div className="mt-8">
+              <a
+                href="#"
+                className="rounded-4xl inline-block w-full text-center text-lg font-medium text-white bg-cyan-600  py-4 px-10 hover:bg-cyan-400 hover:shadow-md md:w-48"
+              >
+                Let's Me Show
+              </a>
+            </div>
+          </div>
+        </motion.div>
       </div>
-    </section>
+    </div>
   );
 }
