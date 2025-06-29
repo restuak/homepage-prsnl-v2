@@ -14,7 +14,7 @@ export default function Welcome() {
               <span className="text-5xl sm:text-7xl md:text-7xl lg:text-8xl xl:text-8xl animate-bounce inline-block origin-[70%_70%]">
                 🌻
               </span>
-              <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-yellow-200">
+              <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-cyan-200">
                 <p className="mt-6 animate-fade-right animate-once animate-delay-1000 animate-ease-in-out">
                   A Geoinformatician{" "}
                 </p>
@@ -24,7 +24,7 @@ export default function Welcome() {
                   focus on my skills in
                 </p>
               </span>
-              <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-yellow-200">
+              <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-cyan-200">
                 <p className="animate-fade-right animate-once animate-delay-1000 animate-ease-in-out">
                   Full-Stack Developer{" "}
                 </p>
@@ -35,7 +35,7 @@ export default function Welcome() {
                     and
                   </p>
                 </span>
-                <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-yellow-200">
+                <span className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-cyan-200">
                   <p className="animate-fade-right animate-once animate-delay-1000 animate-ease-in-out">
                     Web-based GIS Developer
                   </p>

@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="cursor-pointer">
         <span className="text-xl md:text-2xl font-semibold tracking-wide">
           <div className="text-white ">
-            <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
+            <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
               <Link href="/">^_^</Link>
             </span>
           </div>
@@ -22,19 +22,19 @@ export default function Navbar() {
       </div>
 
       <div className=" hidden md:flex items-center gap-10 text-lg font-semibold tracking-wide ">
-        <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           <Link href="/about">ABOUT</Link>
         </span>
-        <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           EXPERIENCE
         </span>
-        <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           SKILL
         </span>
-        <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           ESSAYS
         </span>
-        <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           CONTACT
         </span>
       </div>
@@ -58,23 +58,23 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`flex md:hidden flex-col gap-14 text-center absolute right-[0px] left-[0px] top-[-750px] justify-center align-text-center bg-yellow-200 pb-[140px] pt-[140px]  text-black  ${
+        className={`flex md:hidden flex-col gap-14 text-center absolute right-[0px] left-[0px] top-[-750px] justify-center align-text-center bg-cyan-200 pb-[140px] pt-[140px]  text-black  ${
           isMenuOpen ? "-translate-y-[-824px] " : ""
         } transition-all duration-400 ease-in-out`}
       >
-        <span className="text-3xl font-semibold tracking-wide hover:text-yellow-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
           ABOUT
         </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-yellow-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
           EXPERIENCE
         </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-yellow-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
           SKILL
         </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-yellow-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
           ESSAYS
         </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-yellow-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
           CONTACT
         </span>
       </div>
