@@ -1,19 +1,13 @@
 import Image from "next/image";
-export default function About() {
+export default function AboutDesc() {
   return (
-    <section className="bg-[#09090b]">
+    <section className="bg-[#000000]">
       <div className="h-100% max-w-screen-xl pt-6 mx-auto">
         <div className="flex flex-col items-center ">
           <p className="p-10 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-cyan-400">
             LITTLE BIT OF ME
           </p>
-          <Image
-            src="/profile.jpg"
-            alt="Profile Picture"
-            width={275}
-            height={275}
-            className="rounded-full mt-10 mb-4 border-b-yellow-200"
-          />
+          
           <p className="m-6 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center">
             I’m a Geodetic & Geomatics Engineer (Geoinformatician). Lifelong
             Learner.

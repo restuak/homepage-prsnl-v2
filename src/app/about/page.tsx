@@ -1,12 +1,15 @@
 import AboutFull from "./components/aboutfull";
 import Navbar from "@/components/navbar";
+import AboutDesc from "./components/aboutdesc";
+import Footer from "@/components/footer";
 export default function AboutView() {
   return (
-    
-    <main className="bg-cover bg-no-repeat bg-center h-screen bg-white">
+    <main className="">
       <div id="home" className="">
-        <Navbar/>
+        <Navbar />
         <AboutFull />
+        <AboutDesc />
+        <Footer />
       </div>
     </main>
   );

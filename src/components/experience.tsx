@@ -19,7 +19,7 @@ export default function Experience() {
             Information System (GIS) development.
           </p>
 
-          <VerticalTimeline>
+          {/* <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{
@@ -120,7 +120,7 @@ export default function Experience() {
                 Management, Team Leading
               </p>
             </VerticalTimelineElement>
-          </VerticalTimeline>
+          </VerticalTimeline> */}
         </div>
       </div>
     </section>
