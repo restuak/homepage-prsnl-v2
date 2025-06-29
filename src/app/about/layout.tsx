@@ -1,0 +1,25 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+
+
+export const metadata: Metadata = {
+  title: "About Restu Aka",
+  description: "Page about Restu Aka, a fullstack developer",
+};
+
+export default function Layout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body
+        suppressHydrationWarning
+      >
+        {children}
+      </body>
+    </html>
+  );
+}

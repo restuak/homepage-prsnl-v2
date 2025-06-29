@@ -1,4 +1,6 @@
+"use client";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,12 +10,12 @@ export default function Navbar() {
   };
 
   return (
-    <div className="animate-fade-down animate-once animate-delay-2000 animate-ease-out flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full backdrop-blur-md z-50">
+    <div className="animate-fade-down animate-once animate-delay-2000 animate-ease-out flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full bg-[#10090b] backdrop-blur-md z-50">
       <div className="cursor-pointer">
         <span className="text-xl md:text-2xl font-semibold tracking-wide">
           <div className="text-white ">
             <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
-              ^_^
+              <Link href="/">^_^</Link>
             </span>
           </div>
         </span>
@@ -21,7 +23,7 @@ export default function Navbar() {
 
       <div className=" hidden md:flex items-center gap-10 text-lg font-semibold tracking-wide ">
         <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
-          ABOUT
+          <Link href="/about">ABOUT</Link>
         </span>
         <span className="hover:text-yellow-200 transition-all duration-200 ease-in-out cursor-pointer">
           EXPERIENCE
@@ -57,9 +59,7 @@ export default function Navbar() {
 
       <div
         className={`flex md:hidden flex-col gap-14 text-center absolute right-[0px] left-[0px] top-[-750px] justify-center align-text-center bg-yellow-200 pb-[140px] pt-[140px]  text-black  ${
-          isMenuOpen
-            ? "-translate-y-[-824px] "
-            : ""
+          isMenuOpen ? "-translate-y-[-824px] " : ""
         } transition-all duration-400 ease-in-out`}
       >
         <span className="text-3xl font-semibold tracking-wide hover:text-yellow-600 transition-all duration-200 ease-in-out cursor-pointer">
