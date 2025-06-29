@@ -58,23 +58,23 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`flex md:hidden flex-col gap-14 text-center absolute right-[0px] left-[0px] top-[-750px] justify-center align-text-center bg-cyan-200 pb-[140px] pt-[140px]  text-black  ${
+        className={`flex md:hidden flex-col gap-14 text-center absolute right-[0px] left-[0px] top-[-750px] justify-center align-text-center bg-cyan-400 pb-[140px] pt-[140px]  text-black  ${
           isMenuOpen ? "-translate-y-[-824px] " : ""
         } transition-all duration-400 ease-in-out`}
       >
-        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           ABOUT
         </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           EXPERIENCE
         </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           SKILL
         </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           ESSAYS
         </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-600 transition-all duration-200 ease-in-out cursor-pointer">
+        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
           CONTACT
         </span>
       </div>
