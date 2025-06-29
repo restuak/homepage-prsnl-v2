@@ -10,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="animate-fade-down animate-once animate-delay-2000 animate-ease-out flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full bg-[#10090b] backdrop-blur-md z-50">
+    <div className="animate-fade-down animate-once animate-delay-2000 animate-ease-out flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full bg-[#09090b] backdrop-blur-md z-50">
       <div className="cursor-pointer">
         <span className="text-xl md:text-2xl font-semibold tracking-wide">
           <div className="text-white ">
@@ -26,16 +26,10 @@ export default function Navbar() {
           <Link href="/about">ABOUT</Link>
         </span>
         <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          EXPERIENCE
+          <Link href="/about">EXPERIENCE</Link>
         </span>
         <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          SKILL
-        </span>
-        <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          ESSAYS
-        </span>
-        <span className="hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          CONTACT
+          <Link href="/about">CONTACT</Link>
         </span>
       </div>
 
@@ -62,20 +56,17 @@ export default function Navbar() {
           isMenuOpen ? "-translate-y-[-824px] " : ""
         } transition-all duration-400 ease-in-out`}
       >
-        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          ABOUT
+        <span className="text-5xl font-bold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
+          <Link href="/">HOME</Link>
         </span>
         <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          EXPERIENCE
+          <Link href="/about">ABOUT</Link>
         </span>
         <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          SKILL
+          <Link href="/about">EXPERIENCE</Link>
         </span>
         <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          ESSAYS
-        </span>
-        <span className="text-3xl font-semibold tracking-wide hover:text-cyan-400 transition-all duration-200 ease-in-out cursor-pointer">
-          CONTACT
+          <Link href="/about">CONTACT</Link>
         </span>
       </div>
     </div>
