@@ -9,7 +9,7 @@ export default function ExpTimeline() {
   return (
     <section className="bg-black ">
       <div className=" h-screen w-full ">
-        <div className="flex flex-col items-center pt-[%]">
+        <div className="flex flex-col items-center pt-[7%]">
           <p className="p-10 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-cyan-400">
             MY EXPERIENCE
           </p>
