@@ -4,10 +4,10 @@ export const metadata: Metadata = {
   description: "Page experience Restu Aka, a fullstack developer",
 };
 
-export default function Layout({ children }) {
-  return (
-    <>
-      {children}
-    </>
-  );
+export default function Layout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return <>{children}</>;
 }

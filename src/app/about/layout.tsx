@@ -5,11 +5,16 @@ export const metadata: Metadata = {
   description: "Page about Restu Aka, a fullstack developer",
 };
 
-export default function Layout({ children }) {
+export default function Layout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <>
-      {children}
-          </>
+  
+        {children}
+     
+    </>
   );
 }
-
