@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "motion/react";
 
 export default function About() {
@@ -9,7 +10,7 @@ export default function About() {
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 1, opacity: 1 }}
           transition={{
-            type: "false",
+            type: "spring",
           }}
           className="w-full h-64 lg:w-1/2 lg:h-auto"
         >

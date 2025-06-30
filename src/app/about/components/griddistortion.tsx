@@ -9,7 +9,6 @@ interface GridDistortionProps {
   relaxation?: number;
   imageSrc: string;
   className?: string;
-  data?: number;
 }
 
 const vertexShader = `
@@ -38,7 +37,7 @@ void main() {
 `;
 
 const GridDistortion: React.FC<GridDistortionProps> = ({
-  grid = 15,
+  grid = 100,
   mouse = 0.1,
   strength = 0.15,
   relaxation = 0.9,
@@ -91,7 +90,6 @@ const GridDistortion: React.FC<GridDistortionProps> = ({
     initialDataRef.current = new Float32Array(data);
 
     const dataTexture = new THREE.DataTexture(
-      
       data,
       size,
       size,
@@ -172,11 +170,10 @@ const GridDistortion: React.FC<GridDistortionProps> = ({
       requestAnimationFrame(animate);
       uniforms.time.value += 0.05;
 
-      
-      const data = dataTexture.image.data;
+      const data2 = dataTexture.image.data as type;
       for (let i = 0; i < size * size; i++) {
-        data[i * 4] *= relaxation;
-        data[i * 4 + 1] *= relaxation;
+        data2[i * 4] *= relaxation;
+        data2[i * 4 + 1] *= relaxation;
       }
 
       const gridMouseX = size * mouseState.x;
