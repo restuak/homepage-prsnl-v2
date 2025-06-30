@@ -2,8 +2,8 @@
 import Welcome from "@/components/welcome";
 import Navbar from "@/components/navbar";
 import About from "@/components/about";
-import Works from "@/components/works";
-import Contact from "@/components/contact";
+// import Works from "@/components/works";
+// import Contact from "@/components/contact";
 import { Albert_Sans } from "next/font/google";
 
 const AlbertSans = Albert_Sans({
