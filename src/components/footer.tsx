@@ -1,10 +1,9 @@
 
 export default function Footer(){
     return (
-      <footer className="bg-black footer sm:footer-horizontal footer-center text-base-content p-4 border-t border-t-cyan-600">
+      <footer className="bg-[#000000] text-zinc-600 footer sm:footer-horizontal footer-center text-base-content p-2 border-t border-t-zinc-600">
         <aside>
-          <p>© {new Date().getFullYear()}</p>
-          <p>Personal Homepage Restu Aka</p>
+          <span>© {new Date().getFullYear()} YK-INDONESIA</span>
         </aside>
       </footer>
     );

@@ -7,7 +7,7 @@ export default function ExperienceView() {
     <main className="bg-cover bg-no-repeat bg-center h-screen bg-white">
       <div id="home" className="">
         <Navbar />
-        <ExpTimeline />
+        {/* <ExpTimeline /> */}
         <ExpSkill />
         <Footer />
       </div>

@@ -8,59 +8,33 @@ import { motion } from "motion/react";
 import Image from "next/image";
 import  Link from "next/link";
 
-export default function Experience() {
+export default function Works() {
   return (
-    <main className="bg-[#09090b]">
-    <div className="" id="experience">
-      <div className=" p-10 relative flex flex-col = items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
-        <motion.div
-          initial={{ x: 100, opacity: 0 }}
-          whileInView={{ x: 1, opacity: 1 }}
-          transition={{
-            type: "spring",
-          }}
-          className="w-full h-64 lg:w-1/2 lg:h-auto"
-        >
-          <Image
-            src="/1.jpg"
-            alt="About Image"
-            width={800}
-            height={600}
-            className="object-cover w-full h-full rounded-lg shadow-lg md:rounded-none md:shadow-none lg:rounded-lg lg:shadow-lg xl:rounded-none xl:shadow-none"
-          />
-        </motion.div>
-        <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          whileInView={{ x: 1, opacity: 1 }}
-          transition={{
-            type: "spring",
-          }}
-          className="max-w-lg rounded-4xl bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12"
-        >
-          <div className="flex flex-col p-12 md:px-16 ">
-            <h2 className="text-2xl font-medium uppercase text-cyan-600 lg:text-4xl ">
-              MY EXPERIENCE
-            </h2>
-            <p className="mt-4 text-black">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+    <section className="">
+      <div className="flex flex-col items-center ">
+        <p className="p-10 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-zinc-600 hover:text-zinc-200">
+          LITTLE BIT OF ME
+        </p>
 
-            <div className="mt-8">
-              <Link
-                href="/experience"
-                className="rounded-4xl inline-block w-full text-center text-lg font-medium text-white bg-cyan-600  py-4 px-10 hover:bg-cyan-400 hover:shadow-md md:w-48"
-              >
-                My Experience
-              </Link>
-            </div>
-          </div>
-        </motion.div>
+        <p className="m-6 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center text-zinc-200">
+          I’m a Geodetic & Geomatics Engineer (Geoinformatician). Lifelong
+          Learner.
+        </p>
+        <p className="m-6 mt-0 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center text-zinc-200">
+          Now, I focus on my learning in Full-Stack Website Developer for
+          support my skill in Geographic Information System (GIS) Developer to
+          build Web-based Geographic Information System (GIS). Cheers. 🌻
+        </p>
+        <p className="m-6 mt-0 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center text-zinc-200">
+          I have an interest in hobbies such as writing essays on music and
+          social topics.
+        </p>
+        <p className="m-6 mt-0 text-sm sm:text-xl md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center text-zinc-200">
+          Simply, I am a Geoinformatician with a passion for Web-based GIS and
+          Full-Stack Developer and have hobbies in writing essays.
+        </p>
       </div>
-    </div>
-    </main>
+    </section>
     // <VerticalTimeline>
     //   <VerticalTimelineElement
     //     className="vertical-timeline-element--work"
