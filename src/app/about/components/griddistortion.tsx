@@ -37,9 +37,9 @@ void main() {
 `;
 
 const GridDistortion: React.FC<GridDistortionProps> = ({
-  grid = 100,
-  mouse = 0.1,
-  strength = 0.15,
+  grid = 250,
+  mouse = 0.05,
+  strength = 0.1,
   relaxation = 0.9,
   imageSrc,
   className = "",
