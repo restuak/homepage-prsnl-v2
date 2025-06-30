@@ -4,7 +4,7 @@ import AboutDesc from "./components/aboutdesc";
 import Footer from "@/components/footer";
 export default function AboutView() {
   return (
-    <main className="">
+    <main className="bg-black">
       <div id="home" className="">
         <Navbar />
         <AboutFull />

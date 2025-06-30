@@ -30,7 +30,7 @@ export default function Navbar() {
           <Link href="/experience">EXPERIENCE</Link>
         </span>
         <span className="text-cyan-600 hover:text-cyan-200 transition-all duration-200 ease-in-out cursor-pointer">
-          <Link href="#contact">CONTACT</Link>
+          <Link href={"#contact"}>CONTACT</Link>
         </span>
       </div>
 
