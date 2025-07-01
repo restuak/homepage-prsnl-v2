@@ -5,9 +5,9 @@ import { FaLaptopCode } from "react-icons/fa";
 
 export const SkillAndTech = {
   web: {
-    title: "WEBSITE DEVELOPMENT",
+    title: "FULLSTACK WEB DEVELOPMENT",
     icon: FaLaptopCode,
-    desc: "Building modern, responsive web applications in general",
+    desc: "Build Modern, Responsive Website Applications in General",
     tech: [
       "HTML",
       "CSS",
@@ -18,12 +18,11 @@ export const SkillAndTech = {
       "TailwindCSS",
       "Bootstrap",
     ],
-    
   },
   webgis: {
-    title: "WEBSITE-BASED GIS",
+    title: "WEBSITE APP GIS DEVELOPMENT",
     icon: SiArcgis,
-    desc: "Build Website-based Geography Information System ",
+    desc: "Build Website App based Geography Information System",
     tech: [
       "ArcGIS Online",
       "Leaflet",
@@ -34,7 +33,6 @@ export const SkillAndTech = {
       "MySQL",
       "PostgreSQL",
     ],
-    
   },
 };
 

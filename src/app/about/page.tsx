@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import AboutBg from "./components/profile/aboutbg";
 import Skills from "./components/skills/skills";
 import Card from "./components/apispotify/card";
+import Hobbies from "./components/profile/hobbies";
 
 export default function AboutView() {
   return (
@@ -15,6 +16,7 @@ export default function AboutView() {
         <AboutDesc />
         <Card/>
         <Skills />
+        <Hobbies/>
         <Footer />
       </div>
     </main>

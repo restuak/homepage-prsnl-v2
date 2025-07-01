@@ -1,5 +1,4 @@
-"use client";
-
+import type { Metadata } from "next";
 import { Albert_Sans } from "next/font/google";
 import "./globals.css";
 // import { usePathname } from "next/navigation";
@@ -9,11 +8,16 @@ import "./globals.css";
 // import { Inter } from "next/font/google";
 // import { useGSAP } from "@gsap/react";
 
+export const metadata: Metadata = {
+  title: "Personal Website Restu Aka",
+  description:
+    "Personal Portofolio Restu Aka a Geoinformaticians and passion with Fullstack developer website and GIS apllication map",
+};
+
 const AlbertSans = Albert_Sans({
   variable: "--font-albert-sans",
   subsets: ["latin"],
 });
-
 
 // if (typeof window !== "undefined") {
 //   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -21,7 +25,7 @@ const AlbertSans = Albert_Sans({
 
 // const inter = Inter({ subsets: ["latin"] });
 
-export default function RootLayout( {
+export default function RootLayout({
   // const pathname = usePathname();
 
   // useGSAP(

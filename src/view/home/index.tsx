@@ -11,14 +11,13 @@ const AlbertSans = Albert_Sans({
   subsets: ["latin"],
 });
 
-
 export default function HomeView() {
   return (
     <main
       className={`${AlbertSans.className} bg-[url(/bg.svg)] bg-cover bg-no-repeat bg-center bg-[#09090b]`}
       id="smooth-wrapper"
     >
-      <div id="smooth-content">
+      <div className="" id="smooth-content">
         <Navbar />
 
         <Welcome />

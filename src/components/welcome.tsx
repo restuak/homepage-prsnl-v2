@@ -1,6 +1,6 @@
 "use client";
 import { RiArrowDownWideFill } from "react-icons/ri";
-import CircularText from "@/app/about/components/profile/CircularText";
+// import CircularText from "@/app/about/components/profile/CircularText";
 // import { useRef } from "react";
 // import gsap from "gsap";
 // import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
@@ -35,7 +35,7 @@ export default function Welcome () {
     <>
       <main className=" h-screen max-w-screen-xl flex flex-col justify-center px-6 md:px-10 mx-auto">
         <div>
-          <div className="font-bold " data-speed="1.5">
+          <div className="font-bold ">
             <span
               className={`${ASans.className}  font-semibold tracking-tight hover:text-zinc-600 hover:border-b first:mt-0 text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl animate-fade animate-once animate-delay-120 text-zinc-100`}
             >

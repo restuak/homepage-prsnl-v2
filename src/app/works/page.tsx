@@ -1,5 +1,5 @@
 import Navbar from "@/components/navbar";
-import ExpSkill from "./components/expskill";
+import ExpProject from "./components/expskill";
 import ExpTimeline from "./components/exptimeline";
 import Footer from "@/components/footer";
 export default function ExperienceView() {
@@ -8,7 +8,7 @@ export default function ExperienceView() {
       <div id="home" className="">
         <Navbar />
         <ExpTimeline />
-        <ExpSkill />
+        <ExpProject />
         <Footer />
       </div>
     </main>

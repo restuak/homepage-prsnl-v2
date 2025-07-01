@@ -22,21 +22,39 @@ export default function AboutDesc() {
             className="pt-0 pl-9 pr-9 pb-0 mx-auto text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl justify-center-safe text-zinc-600 "
           >
             <p className="pb-3 text-justify lg:text-center xl:text-center">
-              I’m a Geodetic & Geomatics Engineer (Geoinformatician). Lifelong
-              Learner.
+              I’m a Geodetic & Geomatics Engineer, specialist Geoinformatics.
+              Lifelong Learner.
             </p>
             <p className="pb-3 text-justify lg:text-center xl:text-center">
-              Now, I focus on my learning in Full-Stack Website Developer for
-              support my skill in Geographic Information System (GIS) Developer
-              to build Web-based Geographic Information System (GIS). Cheers.
+              Now, I focusing on passion{" "}
+              <span className="font-bold text-zinc-500 hover:underline">
+                Full-Stack Developer Website{" "}
+              </span>
+              and{" "}
+              <span className="font-bold text-zinc-500 hover:underline">
+                Website Map Application{" "}
+              </span>
+              based{" "}
+              <span className="font-bold text-zinc-500 hover:underline">
+                Geographic Information System (GIS) Development.
+              </span>
             </p>
             <p className="pb-3 text-justify lg:text-center xl:text-center">
-              I have an interest in hobbies such as writing essays on music and
-              social topics.
+              I have an interest in hobbies such as{" "}
+              <span className="font-bold text-zinc-500 hover:underline">
+                writing essays on music and social topics.
+              </span>
             </p>
-            <p className="pb-3 text-justify lg:text-center xl:text-center">
-              Simply, I am a Geoinformatician with a passion for Web-based GIS
-              and Full-Stack Developer and have hobbies in writing essays.
+            <p className="pb-3 text-justify lg:text-center xl:text-center ">
+              Simply, I am a{" "}
+              <span className="font-bold text-zinc-500 hover:underline">
+                Geoinformaticians{" "}
+              </span>
+              with a passion for{" "}
+              <span className="font-extrabold text-zinc-500 hover:underline ">
+                Web-based GIS and Full-Stack Development and have hobbies in
+                writing.
+              </span>
             </p>
           </motion.span>
         </div>

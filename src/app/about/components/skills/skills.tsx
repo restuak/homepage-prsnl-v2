@@ -134,7 +134,7 @@ export default function Skills() {
 
   return (
     <div className="relative">
-      <div className="mx-auto container px-16 py-20">
+      <div className="mx-auto container px-16 py-20 pb-5">
         <motion.div
           initial={{ opacity: 0, y: -30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -145,7 +145,7 @@ export default function Skills() {
             SKILLS
           </h2>
           <p className="text-zinc-600  mx-auto p-3 text-lg max-w-xl text-justify">
-            My skills in web development and web GIS development encompass a
+            My skills in Fullstack Web Development and Web App GIS Development encompass a
             broad spectrum of technologies, frameworks, and tools. Dive into the
             categories below to explore my expertise in detail.
           </p>

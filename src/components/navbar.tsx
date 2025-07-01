@@ -11,7 +11,7 @@ export default function Navbar() {
   };
 
   return (
-    <section className="animate-fade-down animate-once animate-delay-2000 animate-ease-out flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full backdrop-blur-md z-50">
+    <section className="animate-fade-down animate-once animate-delay-1500 animate-ease-out flex justify-between items-center px-6 md:px-10 xl:px-20 py-4 md:py-6 fixed w-full backdrop-blur-md z-50">
       <div className="cursor-pointer">
         <span className="text-xl md:text-2xl font-semibold tracking-wide">
           <div className="">
