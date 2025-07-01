@@ -1,8 +1,11 @@
 
 import Navbar from "@/components/navbar";
-import AboutDesc from "./components/aboutdesc";
+import AboutDesc from "./components/profile/aboutdesc";
 import Footer from "@/components/footer";
-import AboutBg from "./components/aboutbg";
+import AboutBg from "./components/profile/aboutbg";
+import Skills from "./components/skills/skills";
+import Card from "./components/apispotify/card";
+
 export default function AboutView() {
   return (
     <main className="bg-black">
@@ -10,6 +13,8 @@ export default function AboutView() {
         <Navbar />
         <AboutBg />
         <AboutDesc />
+        <Card/>
+        <Skills />
         <Footer />
       </div>
     </main>

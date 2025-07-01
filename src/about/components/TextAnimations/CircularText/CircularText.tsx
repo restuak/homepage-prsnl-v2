@@ -1,4 +1,6 @@
-"use client"
+/*
+	Installed from https://reactbits.dev/ts/tailwind/
+*/
 
 import React, { useEffect } from "react";
 import {
@@ -18,7 +20,7 @@ interface CircularTextProps {
 const getRotationTransition = (
   duration: number,
   from: number,
-  loop: boolean = true
+  loop: boolean = true,
 ) => ({
   from,
   to: from + 360,
@@ -39,7 +41,7 @@ const getTransition = (duration: number, from: number) => ({
 
 const CircularText: React.FC<CircularTextProps> = ({
   text,
-  spinDuration = 30,
+  spinDuration = 20,
   onHover = "speedUp",
   className = "",
 }) => {
