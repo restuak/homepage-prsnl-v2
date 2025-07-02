@@ -50,7 +50,7 @@ export default function Contact() {
                   <FaGithub className="w-14 h-14 zinc-200" />
                 </motion.a>
                 <motion.a
-                  href="https://instagram.com/restuaka"
+                  href="https://instagram.com/restu.aka"
                   target="_blank"
                   rel="Instagram"
                   className="m-3 flex justify-center items-center bg-zinc-500 w-20 h-20 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
