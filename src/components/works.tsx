@@ -1,7 +1,11 @@
 import "react-vertical-timeline-component/style.min.css";
 import { motion } from "motion/react";
 import Link from "next/link";
+import FlowingMenu from "./animate/FlowingMenu";
+import { SampleProject } from "./animate/statisworkdepan";
 export default function Works() {
+
+
   return (
     <section className="p-5 pt-0" id="works">
       <div className="h-100% max-w-screen-xl pt-1 mx-auto">
@@ -38,6 +42,11 @@ export default function Works() {
               </span>
             </p>
           </motion.span>
+
+          <div style={{ height: "300px", position: "relative" }}>
+            <FlowingMenu items={SampleProject} />
+          </div>
+
           <motion.span
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}

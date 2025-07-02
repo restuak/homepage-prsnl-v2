@@ -28,7 +28,7 @@ export default function AboutDesc() {
             <p className="pb-3 text-justify lg:text-center xl:text-center">
               Now, I focusing on passion{" "}
               <span className="font-bold text-zinc-400 hover:underline">
-                Full-Stack Developer Website{" "}
+                Full-Stack Development Website{" "}
               </span>
               and{" "}
               <span className="font-bold text-zinc-400 hover:underline">
@@ -48,11 +48,11 @@ export default function AboutDesc() {
             <p className="pb-3 text-justify lg:text-center xl:text-center ">
               Simply, I am a{" "}
               <span className="font-bold text-zinc-400 hover:underline">
-                Geoinformaticians{" "}
+                Geoinformatician{" "}
               </span>
               with a passion for{" "}
               <span className="font-extrabold text-zinc-400 hover:underline ">
-                Web-based GIS and Full-Stack Development and have hobbies in
+                Web-GIS and Full-Stack Development and have hobbies in
                 writing.
               </span>
             </p>

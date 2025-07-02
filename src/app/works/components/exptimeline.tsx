@@ -64,7 +64,7 @@ export default function ExpTimeline() {
                   Kantor Jasa Surveyor Berlisensi
                 </h4>
                 <h5 className="vertical-timeline-element-subtitle font-light text-zinc-200">
-                  Hybrid, Java Island-ID
+                  Hybrid, Around Java Island-ID
                 </h5>
                 <p>
                   Becoming the coordinator for Geographic Information System
@@ -82,14 +82,14 @@ export default function ExpTimeline() {
                 iconStyle={{ background: "#52525c", color: "#e4e4e7" }}
                 icon={<BsPersonWorkspace />}
               >
-                <h3 className="vertical-timeline-element-title font-bold">
+                <h3 className="vertical-timeline-element-title font-bold uppercase">
                   Geographic Information Systems Analyst
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle font-light text-zinc-400">
                   PPIDS UGM
                 </h4>
                 <h5 className="vertical-timeline-element-subtitle font-light text-zinc-200">
-                  On Site, Bali-ID
+                  On Site, Jakarta & Bali-ID
                 </h5>
                 <p>Staff surveyor and spatial data processing and analyst</p>
               </VerticalTimelineElement>

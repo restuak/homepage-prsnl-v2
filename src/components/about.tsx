@@ -8,7 +8,6 @@ export default function About() {
     <section className=" p-5 pt-5" id="about">
       <div className="h-100% max-w-screen-xl pt-1 mx-auto">
         <div className="flex flex-col items-center ">
-          
           <motion.span
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -19,7 +18,7 @@ export default function About() {
               I’m a Geodetic & Geomatics Engineer, specialist Geoinformatics.
               Now, I focusing on passion{" "}
               <span className="text-justify font-bold  hover:underline">
-                Full-Stack Developer Website{" "}
+                Full-Stack Development Website{" "}
               </span>
               and{" "}
               <span className="text-justify font-bold  hover:underline">
