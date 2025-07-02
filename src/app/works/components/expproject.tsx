@@ -12,7 +12,7 @@ export default function ExpProject() {
             App Map based Geographic Information System (GIS)
           </p>
         </div>
-        <div className="container pt-0 flex flex-wrap justify-center gap-10">
+        <div className="container pt-0 pb-20 flex flex-wrap justify-center gap-10">
           <div className="bg-zinc-500 mt-2 items-center card w-70 md:w-95 shadow-sm">
             <figure>
               <img
