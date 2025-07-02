@@ -23,7 +23,9 @@ export default function ExpProject() {
             <div className="card-body bg-zinc-800">
               <h2 className="card-title">
                 Web App GIS Road Analyst in Java
-                <div className="badge badge-secondary">NEW</div>
+                <div className="badge badge-secondary bg-zinc-600 border-zinc-300">
+                  NEW
+                </div>
               </h2>
               <p>
                 This project involves developing a web-based GIS application for
@@ -55,7 +57,9 @@ export default function ExpProject() {
             <div className="card-body bg-zinc-800">
               <h2 className="card-title">
                 Web App GIS Road Analyst in Java
-                <div className="badge badge-secondary">NEW</div>
+                <div className="badge badge-secondary bg-zinc-600 border-zinc-300">
+                  NEW
+                </div>
               </h2>
               <p>
                 This project involves developing a web-based GIS application for
@@ -87,7 +91,9 @@ export default function ExpProject() {
             <div className="card-body bg-zinc-800">
               <h2 className="card-title">
                 Web App GIS Road Analyst in Java
-                <div className="badge badge-secondary">NEW</div>
+                <div className="badge badge-secondary bg-zinc-600 border-zinc-300">
+                  NEW
+                </div>
               </h2>
               <p>
                 This project involves developing a web-based GIS application for
@@ -119,7 +125,9 @@ export default function ExpProject() {
             <div className="card-body bg-zinc-800">
               <h2 className="card-title">
                 Web App GIS Road Analyst in Java
-                <div className="badge badge-secondary">NEW</div>
+                <div className="badge badge-secondary bg-zinc-600 border-zinc-300">
+                  NEW
+                </div>
               </h2>
               <p>
                 This project involves developing a web-based GIS application for
@@ -151,7 +159,9 @@ export default function ExpProject() {
             <div className="card-body bg-zinc-800">
               <h2 className="card-title">
                 Web App GIS Road Analyst in Java
-                <div className="badge badge-secondary">NEW</div>
+                <div className="badge badge-secondary bg-zinc-600 border-zinc-300">
+                  NEW
+                </div>
               </h2>
               <p>
                 This project involves developing a web-based GIS application for
@@ -183,7 +193,9 @@ export default function ExpProject() {
             <div className="card-body bg-zinc-800">
               <h2 className="card-title">
                 Web App GIS Road Analyst in Java
-                <div className="badge badge-secondary">NEW</div>
+                <div className="badge badge-secondary bg-zinc-600 border-zinc-300">
+                  NEW
+                </div>
               </h2>
               <p>
                 This project involves developing a web-based GIS application for
