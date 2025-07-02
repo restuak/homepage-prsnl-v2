@@ -79,20 +79,20 @@ const MenuItem: React.FC<MenuItemProps> = ({ link, text, image, tech }) => {
   };
 
   const repeatedMarqueeContent = React.useMemo(() => {
-    return Array.from({ length: 4 }).map((_, idx) => (
+    return Array.from({ length: 3 }).map((_, idx) => (
       <React.Fragment key={idx}>
         {/* <span className="text-zinc-900 uppercase font-normal text-xl leading-[1.2] p-[1vh_1vw_0]">
           {text}
            </span> */}
-        <div className="flex gap-2 text-zinc-900 uppercase font-normal text-[12px] md:text-xl leading-[1.2] p-[1vh_1vw_0]">
+        <div className="flex gap-5 text-zinc-900 uppercase font-normal text-[13px] md:text-xl leading-[1.2] p-[1vh_1vw_0]">
           {tech.map((item, index) => (
             <span key={index}>{item}</span>
           ))}
         </div>
-        <div
+        {/* <div
           className="w-[200px] h-[7vh] my-[2em] mx-[2vw] p-[1em_0] rounded-[50px] bg-cover bg-center"
           style={{ backgroundImage: `url(${image})` }}
-        />
+        /> */}
       </React.Fragment>
     ));
   }, [text, tech]);
