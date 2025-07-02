@@ -19,7 +19,7 @@ export default function AboutDesc() {
             initial={{ opacity: 0, y: -30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="pt-0 pl-9 pr-9 pb-0 mx-auto text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl justify-center-safe text-zinc-600 "
+            className="pt-0 pl-9 pr-9 pb-0 mx-auto text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl justify-center-safe text-zinc-500 "
           >
             <p className="pb-3 text-justify lg:text-center xl:text-center">
               I’m a Geodetic & Geomatics Engineer, specialist Geoinformatics.
@@ -27,31 +27,31 @@ export default function AboutDesc() {
             </p>
             <p className="pb-3 text-justify lg:text-center xl:text-center">
               Now, I focusing on passion{" "}
-              <span className="font-bold text-zinc-500 hover:underline">
+              <span className="font-bold text-zinc-400 hover:underline">
                 Full-Stack Developer Website{" "}
               </span>
               and{" "}
-              <span className="font-bold text-zinc-500 hover:underline">
+              <span className="font-bold text-zinc-400 hover:underline">
                 Website Map Application{" "}
               </span>
               based{" "}
-              <span className="font-bold text-zinc-500 hover:underline">
+              <span className="font-bold text-zinc-400 hover:underline">
                 Geographic Information System (GIS) Development.
               </span>
             </p>
             <p className="pb-3 text-justify lg:text-center xl:text-center">
               I have an interest in hobbies such as{" "}
-              <span className="font-bold text-zinc-500 hover:underline">
+              <span className="font-bold text-zinc-400 hover:underline">
                 writing essays on music and social topics.
               </span>
             </p>
             <p className="pb-3 text-justify lg:text-center xl:text-center ">
               Simply, I am a{" "}
-              <span className="font-bold text-zinc-500 hover:underline">
+              <span className="font-bold text-zinc-400 hover:underline">
                 Geoinformaticians{" "}
               </span>
               with a passion for{" "}
-              <span className="font-extrabold text-zinc-500 hover:underline ">
+              <span className="font-extrabold text-zinc-400 hover:underline ">
                 Web-based GIS and Full-Stack Development and have hobbies in
                 writing.
               </span>

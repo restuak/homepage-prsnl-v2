@@ -17,7 +17,7 @@ export default function About() {
           >
             <p className="pb-3 text-justify">
               I’m a Geodetic & Geomatics Engineer, specialist Geoinformatics.
-              Lifelong Learner. Now, I focusing on passion{" "}
+              Now, I focusing on passion{" "}
               <span className="text-justify font-bold  hover:underline">
                 Full-Stack Developer Website{" "}
               </span>

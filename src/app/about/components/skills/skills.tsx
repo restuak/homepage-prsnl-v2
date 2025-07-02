@@ -1,7 +1,7 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, ReactNode } from "react";
-import { SkillAndTech } from "./static";
+import { SkillAndTech } from "./staticskill";
 // import { techList } from "./static";
 
 type Web = {
@@ -144,7 +144,7 @@ export default function Skills() {
           <h2 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-zinc-300">
             SKILLS
           </h2>
-          <p className="text-zinc-600  mx-auto p-3 text-lg max-w-xl text-justify">
+          <p className="text-zinc-500  mx-auto p-3 text-lg max-w-xl text-justify">
             My skills in Fullstack Web Development and Web App GIS Development encompass a
             broad spectrum of technologies, frameworks, and tools. Dive into the
             categories below to explore my expertise in detail.

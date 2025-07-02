@@ -1,36 +1,11 @@
 "use client";
-import { RiArrowDownWideFill } from "react-icons/ri";
-// import CircularText from "@/app/about/components/profile/CircularText";
-// import { useRef } from "react";
-// import gsap from "gsap";
-// import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-// import { useGSAP } from "@gsap/react";
-
-// const Welcome = () => {
-//   const container = useRef();
-
-//   useGSAP(
-//     () => {
-//       gsap.registerPlugin(ScrollTrigger);
-//       ScrollTrigger.create({
-//         trigger: ".box-c",
-//         pin: true,
-//         start: 103,
-//         end: 30,
-//         markers: true,
-//       });
-//     },
-//     {
-//       scope: container,
-//     }
-//   );
+import { IoIosArrowDown } from "react-icons/io";
 import { Albert_Sans } from "next/font/google";
 const ASans = Albert_Sans({
   variable: "--font-albert-sans",
   subsets: ["latin"],
-
 });
-export default function Welcome () {
+export default function Welcome() {
   return (
     <>
       <main className=" h-screen max-w-screen-xl flex flex-col justify-center px-6 md:px-10 mx-auto">
@@ -83,19 +58,18 @@ export default function Welcome () {
                 </p>
               </span>
             </span>
-
           </div>
         </div>
-
         <div className="absolute bottom-0 left-0 w-full flex justify-center pb-10 overflow-y-hidden">
-          <div className="animate-fade-up animate-once animate-delay-2000 animate-ease-out z-20 flex flex-col items-center cursor-pointer">
+          <div
+            className="animate-fade-up animate-once animate-delay-2000 animate-ease-out z-20 flex flex-col items-center cursor-pointer"
+          >
             <span className="animate-bounce text-4xl text-bold text-zinc-600">
-              <RiArrowDownWideFill />
+              <IoIosArrowDown />
             </span>
           </div>
         </div>
       </main>
     </>
   );
-};
-
+}
