@@ -43,7 +43,10 @@ export default function Works() {
             </p>
           </motion.span>
 
-          <div style={{ height: "300px", position: "relative" }}>
+          <div
+            className="text-2xl"
+            style={{ height: "350px", position: "relative" }}
+          >
             <FlowingMenu items={SampleProject} />
           </div>
 
@@ -54,7 +57,7 @@ export default function Works() {
           >
             <Link
               href="/works"
-              rel="My Works"
+              rel="author"
               className="m-3 p-5 font-bold flex flex-auto justify-center items-center bg-zinc-500 rounded-b-2xl text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
             >
               MORE MY WORKS{" "}

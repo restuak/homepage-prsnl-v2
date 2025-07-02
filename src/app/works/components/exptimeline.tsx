@@ -18,7 +18,7 @@ export default function ExpTimeline() {
             I have been working in the field of Geodetic & Geomatics Engineer in
             specialist Geoinformatics for several years. Now, I focusing on
             Full-Stack Development and Web Map Application based Geographic
-            Information System (GIS) Development.
+            Information System (GIS) Development
           </p>
           <div className="h-max w-[100%]">
             <VerticalTimeline>
@@ -83,7 +83,7 @@ export default function ExpTimeline() {
                 icon={<BsPersonWorkspace />}
               >
                 <h3 className="vertical-timeline-element-title font-bold uppercase">
-                  Geographic Information Systems Analyst
+                  Geographic Information System Analyst
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle font-light text-zinc-400">
                   PPIDS UGM
