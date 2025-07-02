@@ -1,5 +1,5 @@
 import Navbar from "@/components/navbar";
-import ExpProject from "./components/expskill";
+import ExpProject from "./components/expproject";
 import ExpTimeline from "./components/exptimeline";
 import Footer from "@/components/footer";
 export default function ExperienceView() {

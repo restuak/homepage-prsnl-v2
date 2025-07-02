@@ -1,8 +1,8 @@
 "use client";
 import Welcome from "@/components/welcome";
 import Navbar from "@/components/navbar";
-// import About from "@/components/about";
-// import Works from "@/components/works";
+import About from "@/components/about";
+import Works from "@/components/works";
 import Contact from "@/components/contact";
 import { Albert_Sans } from "next/font/google";
 
@@ -22,9 +22,9 @@ export default function HomeView() {
 
         <Welcome />
 
-        {/* <About /> */}
+        <About />
 
-        {/* <Works /> */}
+        <Works />
 
         <Contact />
       </div>
