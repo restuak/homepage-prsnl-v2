@@ -1,7 +1,17 @@
 import { SiArcgis } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiNextdotjs,
+  SiLeaflet,
+  SiMapbox,
+  SiGoogleearthengine,
+  SiPython,
+  SiMysql,
+  SiPostgresql,
+} from "react-icons/si";
 
 export const SkillAndTech = {
   web: {
@@ -16,7 +26,6 @@ export const SkillAndTech = {
       { icon: FaReact, name: "ReactJS" },
       { icon: SiNextdotjs, name: "NextJS" },
       { icon: SiTailwindcss, name: "Tailwind" },
-      { icon: FaCss3Alt, name: "RestAPI" },
     ],
   },
   webgis: {
@@ -24,14 +33,13 @@ export const SkillAndTech = {
     icon: SiArcgis,
     desc: "Build Website App based Geography Information System",
     tech: [
-      { icon: FaHtml5, name: "ArcGIS Ol" },
-      { icon: FaCss3Alt, name: "Leaflet" },
-      { icon: FaJs, name: "MapBox" },
-      { icon: FaHtml5, name: "GE Engine" },
-      { icon: FaCss3Alt, name: "Python" },
-      { icon: FaJs, name: "RestAPI" },
-      { icon: FaCss3Alt, name: "MySQL" },
-      { icon: FaJs, name: "PostgreSQL" },
+      { icon: SiArcgis, name: "ArcGIS Ol" },
+      { icon: SiLeaflet, name: "Leaflet" },
+      { icon: SiMapbox, name: "MapBox" },
+      { icon: SiGoogleearthengine, name: "GE Engine" },
+      { icon: SiPython, name: "Python" },
+      { icon: SiMysql, name: "MySQL" },
+      { icon: SiPostgresql, name: "PostgreSQL" },
     ],
   },
 };

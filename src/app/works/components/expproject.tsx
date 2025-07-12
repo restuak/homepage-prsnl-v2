@@ -1,4 +1,6 @@
+"use client"
 import ScrollUp from "@/components/animate/scrollup";
+import FooterIn from "@/components/footerin";
 export default function ExpProject() {
   return (
     <main className="bg-black">
@@ -217,6 +219,7 @@ export default function ExpProject() {
             </div>
           </div>
         </div>
+        <FooterIn />
       </div>
       <ScrollUp />
     </main>

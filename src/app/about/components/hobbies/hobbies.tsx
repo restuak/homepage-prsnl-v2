@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Essays } from "./statichobbies";
 import ScrollUp from "@/components/animate/scrollup";
+import FooterIn from "@/components/footerin";
 export default function Hobbies() {
   return (
     <main className="bg-[#000000]">
@@ -88,6 +89,7 @@ export default function Hobbies() {
             ))}
           </motion.div>
         </div>
+        <FooterIn />
       </div>
       <ScrollUp />
     </main>
