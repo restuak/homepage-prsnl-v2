@@ -131,7 +131,7 @@ function SkillDetails({ selectedSkill }: { selectedSkill: Skill | null }) {
 									 backdrop-blur-sm hover:scale-105 transition-transform cursor-default
 									 hover:bg-zinc-600 hover:from-zinc-300 hover:text-zinc-200"
             >
-              <tech.icon className="w-8 h-8 relative flex justify-center md:w-[80px] w-[80px]" />
+              <tech.icon className=" h-8 relative flex justify-center md:w-[80px] w-[80px]" />
               <div className="relative flex justify-center text-center ">
                 {tech.name}
               </div>
