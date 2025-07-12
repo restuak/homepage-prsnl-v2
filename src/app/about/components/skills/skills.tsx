@@ -2,6 +2,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, ReactNode } from "react";
 import { SkillAndTech } from "./staticskill";
+import { IconTree, IconType } from "react-icons/lib";
 // import { techList } from "./static";
 
 type Web = {
@@ -9,12 +10,14 @@ type Web = {
   icon: React.ComponentType<{ className: string }>;
   desc: string;
   tech: string[];
+  icontech: IconType[];
 };
 type Webgis = {
   title: string;
   icon: React.ComponentType<{ className: string }>;
   desc: string;
   tech: string[];
+  icontech: string[];
 };
 
 interface SkillAndTech {
@@ -27,6 +30,7 @@ type Skill = {
   title: string;
   icon: React.ComponentType<{ className: string }>;
   tech: string[];
+  icontech: string[];
 };
 
 function SkillCard({
@@ -159,6 +163,7 @@ export default function Skills() {
               icon: skill.icon,
               desc: skill.desc,
               tech: skill.tech,
+              icontech: skill.icontech,
             };
 
             return (
@@ -188,6 +193,7 @@ export default function Skills() {
                     icon: SkillAndTech[selectedCategory].icon,
                     desc: SkillAndTech[selectedCategory].desc,
                     tech: SkillAndTech[selectedCategory].tech,
+                    icontech: SkillAndTech[selectedCategory].icontech,
                   }
                 : null
             }

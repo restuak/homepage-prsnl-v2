@@ -1,7 +1,7 @@
 import { SiArcgis } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";
-// import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap } from "react-icons/fa";
-// import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap } from "react-icons/fa";
+import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
 
 export const SkillAndTech = {
   web: {
@@ -18,6 +18,16 @@ export const SkillAndTech = {
       "TailwindCSS",
       "Bootstrap",
     ],
+    icontech: [
+      "12345",
+      "23456",
+      "34567",
+      "45678",
+      "67890",
+      "12345",
+      "23456",
+      "34567",
+    ],
   },
   webgis: {
     title: "WEBSITE APP GIS DEVELOPMENT",
@@ -32,6 +42,16 @@ export const SkillAndTech = {
       "FastAPI",
       "MySQL",
       "PostgreSQL",
+    ],
+    icontech: [
+      "12345",
+      "23456",
+      "34567",
+      "45678",
+      "67890",
+      "12345",
+      "23456",
+      "34567",
     ],
   },
 };
