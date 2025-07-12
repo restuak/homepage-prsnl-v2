@@ -1,9 +1,9 @@
 "use client";
 import ScrollUp from "@/components/animate/scrollup";
 import FooterIn from "@/components/footerin";
-import ModalExp from "./modalexp";
+// import ModalExp from "./modalexp";
 import { Button } from "@/components/ui/button";
-import { projectCard, projectDetail } from "./projectstatic";
+import { projectDetail } from "./projectstatic";
 import ProjectCardCard from "./cardproject";
 
 export default function ExpProject() {
@@ -21,7 +21,15 @@ export default function ExpProject() {
         </div>
 
         <div className="container pt-0 pb-20 flex flex-wrap justify-center gap-10">
-          {projectCard.map((card) => (
+          <div className="flex flex-wrap gap-10 justify-center py-5">
+            {projectDetail.map((card) => (
+              <ProjectCardCard key={card.id} {...card} />
+            ))}
+          </div>
+
+
+
+          {/* {projectCard.map((card) => (
             <ProjectCardCard key={card.id} {...card} />
             
           ))}
@@ -38,7 +46,7 @@ export default function ExpProject() {
                 </div>
               }
             />
-          ))}
+          ))} */}
         </div>
 
         <FooterIn />
