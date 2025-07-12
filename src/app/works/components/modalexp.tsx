@@ -7,19 +7,19 @@ import { Button } from "@/components/ui/button";
 
 type ProjectDialogProps = {
   title: string;
-  description: string;
+  desc: string;
   features: string[];
   tools: string[];
-  images: string[];
-  trigger?: React.ReactNode; // custom trigger (button, card, dll)
+  img: string[];
+  trigger?: React.ReactNode;
 };
 
 export default function ModalExp({
   title,
-  description,
+  desc,
   features,
   tools,
-  images,
+  img,
   trigger,
 }: ProjectDialogProps) {
   return (
@@ -28,10 +28,10 @@ export default function ModalExp({
         {trigger ?? <Button variant="outline">View Project</Button>}
       </DialogTrigger>
 
-      <DialogContent className="max-w-4xl bg-zinc-950 text-white border-zinc-700 overflow-y-auto max-h-[90vh]">
+      <DialogContent className="max-w-4xl max-h-full0vh] bg-zinc-950 text-white border-zinc-700 overflow-y-auto ">
         <div className="p-6 space-y-4">
           <h2 className="text-2xl font-bold">{title}</h2>
-          <p className="text-sm text-zinc-400">{description}</p>
+          <p className="text-sm text-zinc-400">{desc}</p>
 
           <div>
             <h3 className="font-semibold mb-1">Features I Worked On:</h3>
@@ -45,7 +45,7 @@ export default function ModalExp({
           <div>
             <h4 className="font-semibold mb-1">Screenshots</h4>
             <div className="flex gap-2 overflow-x-auto pb-2">
-              {images.map((src, i) => (
+              {img.map((src, i) => (
                 <Image
                   key={i}
                   src={src}

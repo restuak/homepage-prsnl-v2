@@ -2,6 +2,10 @@
 import ScrollUp from "@/components/animate/scrollup";
 import FooterIn from "@/components/footerin";
 import ModalExp from "./modalexp";
+import { Button } from "@/components/ui/button";
+import { projectCard, projectDetail } from "./projectstatic";
+import ProjectCardCard from "./cardproject";
+
 export default function ExpProject() {
   return (
     <main className="bg-black">
@@ -15,61 +19,28 @@ export default function ExpProject() {
             App Map based Geographic Information System (GIS)
           </p>
         </div>
+
         <div className="container pt-0 pb-20 flex flex-wrap justify-center gap-10">
-          <ModalExp
-            title="HR-TOOLS"
-            description="This is HR TOOLS which is used to manage employee data..."
-            features={[
-              "Fixed Bug Create, Read, Update and Delete Data Employee, Siswa, and Mata Pelajaran.",
-              "Create, Read, Update and Delete Employee Recruitment.",
-              "Create, Read, Update and Delete Employee Performance appraisal.",
-              "Attendance system using Leaflet map.",
-            ]}
-            tools={["Codeigniter 3", "Bootstrap 3", "MYSQL 5.3", "JQuery"]}
-            images={[
-              "/hrtools/1.png",
-              "/hrtools/2.png",
-              "/hrtools/3.png",
-              "/hrtools/4.png",
-              "/hrtools/5.png",
-            ]}
-            trigger={
-              <div className="bg-zinc-500 mt-2 items-center card w-70 md:w-95 shadow-sm">
-                <figure>
-                  <img
-                    src="https://images.theconversation.com/files/331264/original/file-20200429-51489-190wiy4.png?ixlib=rb-4.1.0&q=45&auto=format&w=1000&fit=clip"
-                    alt="Shoes"
-                  />
-                </figure>
-                <div className="card-body bg-zinc-800">
-                  <h2 className="card-title">
-                    Web App GIS Road Analyst in Java
-                    <div className="badge badge-secondary bg-zinc-600 border-zinc-300">
-                      NEW
-                    </div>
-                  </h2>
-                  <p>
-                    This project involves developing a web-based GIS application
-                    for road analysis using Java. It integrates various mapping
-                    libraries and tools to provide interactive and analytical
-                    features for geographic data visualization and manipulation.
-                  </p>
-                  <div className="card-actions justify-end">
-                    <div className="badge badge-outline">ReactJS</div>
-                    <div className="badge badge-outline">TailwindCSS</div>
-                    <div className="badge badge-outline">NextJS</div>
-                    <div className="badge badge-outline">ReactBit</div>
-                    <div className="badge badge-outline">Rest API</div>
-                    <div className="badge badge-outline">POstman</div>
-                    <div className="badge badge-outline">ArcGIS Ol</div>
-                    <div className="badge badge-outline">MapBox</div>
-                    <div className="badge badge-outline">Leaflet</div>
-                  </div>
+          {projectCard.map((card) => (
+            <ProjectCardCard key={card.id} {...card} />
+            
+          ))}
+
+          {projectDetail.map((project) => (
+            <ModalExp
+              key={project.id}
+              {...project}
+              trigger={
+                <div className="pt-3">
+                  <Button className="p-5 container font-bold text-lg bg-zinc-900 hover:bg-zinc-400 content-center items-center">
+                    MORE
+                  </Button>
                 </div>
-              </div>
-            }
-          />
+              }
+            />
+          ))}
         </div>
+
         <FooterIn />
       </div>
       <ScrollUp />
