@@ -7,18 +7,27 @@ import { IconTree, IconType } from "react-icons/lib";
 
 type Web = {
   title: string;
-  icon: React.ComponentType<{ className: string }>;
+  icon: IconType;
   desc: string;
-  tech: string[];
-  icontech: IconType[];
+  tech: {
+    icon: IconType;
+    name: string;
+  }[];
 };
 type Webgis = {
   title: string;
-  icon: React.ComponentType<{ className: string }>;
+  icon: IconType;
   desc: string;
-  tech: string[];
-  icontech: string[];
+  tech: {
+    icon: IconType;
+    name: string;
+  }[];
 };
+
+type tech = {
+    icon: IconType;
+    name: string;
+  }[];
 
 interface SkillAndTech {
   web: Web;
@@ -28,9 +37,8 @@ interface SkillAndTech {
 type Skill = {
   desc: ReactNode;
   title: string;
-  icon: React.ComponentType<{ className: string }>;
-  tech: string[];
-  icontech: string[];
+  icon: IconType;
+  tech: tech;
 };
 
 function SkillCard({
@@ -112,9 +120,9 @@ function SkillDetails({ selectedSkill }: { selectedSkill: Skill | null }) {
           TOOLS & TECH
         </h3>
         <div className="flex flex-wrap justify-center gap-3">
-          {selectedSkill.tech.map((lang: string, index: number) => (
+          {selectedSkill.tech.map((tech, index) => (
             <motion.span
-              key={lang}
+              key={tech.name}
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.3 + index * 0.1 }}
@@ -123,7 +131,10 @@ function SkillDetails({ selectedSkill }: { selectedSkill: Skill | null }) {
 									 backdrop-blur-sm hover:scale-105 transition-transform cursor-default
 									 hover:bg-zinc-600 hover:from-zinc-300 hover:text-zinc-200"
             >
-              {lang}
+              <tech.icon className="w-8 h-8 relative flex justify-center md:w-[80px] w-[80px]" />
+              <div className="relative flex justify-center text-center ">
+                {tech.name}
+              </div>
             </motion.span>
           ))}
         </div>
@@ -149,9 +160,9 @@ export default function Skills() {
             SKILLS
           </h2>
           <p className="text-zinc-500  mx-auto p-3 text-lg max-w-xl text-justify">
-            My skills in Fullstack Web Development and Web App GIS Development encompass a
-            broad spectrum of technologies, frameworks, and tools. Dive into the
-            categories below to explore my expertise in detail.
+            My skills in Fullstack Web Development and Web App GIS Development
+            encompass a broad spectrum of technologies, frameworks, and tools.
+            Dive into the categories below to explore my expertise in detail.
           </p>
         </motion.div>
 
@@ -163,7 +174,6 @@ export default function Skills() {
               icon: skill.icon,
               desc: skill.desc,
               tech: skill.tech,
-              icontech: skill.icontech,
             };
 
             return (
@@ -193,7 +203,6 @@ export default function Skills() {
                     icon: SkillAndTech[selectedCategory].icon,
                     desc: SkillAndTech[selectedCategory].desc,
                     tech: SkillAndTech[selectedCategory].tech,
-                    icontech: SkillAndTech[selectedCategory].icontech,
                   }
                 : null
             }

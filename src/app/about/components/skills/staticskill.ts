@@ -1,6 +1,6 @@
 import { SiArcgis } from "react-icons/si";
 import { FaLaptopCode } from "react-icons/fa";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, SiNextdotjs } from "react-icons/si";
 
 export const SkillAndTech = {
@@ -9,24 +9,14 @@ export const SkillAndTech = {
     icon: FaLaptopCode,
     desc: "Build Modern, Responsive Website Applications in General",
     tech: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
-      "React",
-      "NextJS",
-      "TailwindCSS",
-      "Bootstrap",
-    ],
-    icontech: [
-      "12345",
-      "23456",
-      "34567",
-      "45678",
-      "67890",
-      "12345",
-      "23456",
-      "34567",
+      { icon: FaHtml5, name: "HTML" },
+      { icon: FaCss3Alt, name: "CSS" },
+      { icon: FaJs, name: "JavaScript" },
+      { icon: SiTypescript, name: "TypeScript" },
+      { icon: FaReact, name: "ReactJS" },
+      { icon: SiNextdotjs, name: "NextJS" },
+      { icon: SiTailwindcss, name: "TailwindCSS" },
+      { icon: FaCss3Alt, name: "RestAPI" },
     ],
   },
   webgis: {
@@ -34,24 +24,14 @@ export const SkillAndTech = {
     icon: SiArcgis,
     desc: "Build Website App based Geography Information System",
     tech: [
-      "ArcGIS Online",
-      "Leaflet",
-      "MapBox",
-      "GoogleMap Engine",
-      "Python",
-      "FastAPI",
-      "MySQL",
-      "PostgreSQL",
-    ],
-    icontech: [
-      "12345",
-      "23456",
-      "34567",
-      "45678",
-      "67890",
-      "12345",
-      "23456",
-      "34567",
+      { icon: FaHtml5, name: "ArcGIS Online" },
+      { icon: FaCss3Alt, name: "Leaflet" },
+      { icon: FaJs, name: "MapBox" },
+      { icon: FaHtml5, name: "GoogleMap Engine" },
+      { icon: FaCss3Alt, name: "Python" },
+      { icon: FaJs, name: "RestAPI" },
+      { icon: FaCss3Alt, name: "MySQL" },
+      { icon: FaJs, name: "PostgreSQL" },
     ],
   },
 };
