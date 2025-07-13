@@ -1,4 +1,3 @@
-"use client";
 import { IoIosArrowDown } from "react-icons/io";
 import { Albert_Sans } from "next/font/google";
 const ASans = Albert_Sans({
@@ -11,11 +10,11 @@ export default function Welcome() {
       <main className=" h-screen max-w-screen-xl flex flex-col justify-center px-6 md:px-10 mx-auto">
         <div>
           <div className="font-bold ">
-            <span
-              className={`${ASans.className}  font-semibold tracking-tight hover:text-zinc-600 hover:border-b first:mt-0 text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl animate-fade animate-once animate-delay-120 text-zinc-100`}
+            <h1
+              className={`${ASans.className}  font-semibold tracking-tight hover:text-zinc-600 hover: first:mt-0 text-4xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-7xl animate-fade animate-once animate-delay-120 text-zinc-100`}
             >
               I&apos;M RESTU AKA
-            </span>
+            </h1>
             <span className="text-2xl pt-5 sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-zinc-600 ">
               <p
                 className="pt-13 animate-fade-right animate-once animate-delay-1000 animate-ease-in-out"

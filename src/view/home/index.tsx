@@ -11,6 +11,13 @@ const AlbertSans = Albert_Sans({
   subsets: ["latin"],
 });
 
+export async function getStaticProps() {
+  return {
+    props: {
+      name: "Restu Aka",
+    },
+  };
+}
 export default function HomeView() {
   return (
     <main
