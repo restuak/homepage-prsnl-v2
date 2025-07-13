@@ -1,14 +1,15 @@
 import "react-vertical-timeline-component/style.min.css";
 import { motion } from "motion/react";
 import Link from "next/link";
-import FlowingMenu from "./animate/FlowingMenu";
-import { SampleProject } from "./animate/statisworkdepan";
+// import FlowingMenu from "./animate/FlowingMenu";
+// import { SampleProject } from "./animate/statisworkdepan";
+// import ProjectCardCard from "@/app/works/components/cardproject";
+import ModalExp from "@/app/works/components/modalexp";
+import { projectDetail } from "@/app/works/components/projectstatic";
 export default function Works() {
-
-
   return (
-    <section className="p-5 pt-0" id="works">
-      <div className="h-100% max-w-screen-xl pt-1 mx-auto">
+    <section className=" p-5 pt-0" id="works">
+      <div className="min-h-screen max-w-screen-xl pt-1 mx-auto">
         <div className="flex flex-col items-center ">
           <motion.p
             initial={{ opacity: 0, y: -30 }}
@@ -43,12 +44,13 @@ export default function Works() {
             </p>
           </motion.span>
 
-          <div
-            className="text-2xl"
-            style={{ height: "350px", position: "relative" }}
-          >
-            <FlowingMenu items={SampleProject} />
-          </div>
+        
+            <div>
+              {projectDetail.slice(0, 3).map((proj) => (
+                <ModalExp key={proj.id} {...proj} />
+              ))}
+            </div>
+        
 
           <motion.span
             initial={{ opacity: 0, y: 30 }}

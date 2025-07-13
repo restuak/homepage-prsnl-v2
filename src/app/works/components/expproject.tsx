@@ -26,27 +26,6 @@ export default function ExpProject() {
               <ProjectCardCard key={card.id} {...card} />
             ))}
           </div>
-
-
-
-          {/* {projectCard.map((card) => (
-            <ProjectCardCard key={card.id} {...card} />
-            
-          ))}
-
-          {projectDetail.map((project) => (
-            <ModalExp
-              key={project.id}
-              {...project}
-              trigger={
-                <div className="pt-3">
-                  <Button className="p-5 container font-bold text-lg bg-zinc-900 hover:bg-zinc-400 content-center items-center">
-                    MORE
-                  </Button>
-                </div>
-              }
-            />
-          ))} */}
         </div>
 
         <FooterIn />

@@ -33,7 +33,7 @@ export default function Contact() {
                   href="mailto:restuaka.works@gmail.com"
                   rel="noopener noreferrer"
                   aria-label="Email Restu Aka"
-                  className="m-3 w-full flex  justify-center items-center bg-zinc-500 w-20 h-20 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
+                  className="m-3 w-full flex  justify-center items-center bg-zinc-500 h-20 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
                 >
                   <MdOutlineMailOutline className="w-13 h-13 zinc-200" />
                 </a>

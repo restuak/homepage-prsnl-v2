@@ -28,30 +28,30 @@ export default function ProjectCardCard({
 }: Props) {
   return (
     <Dialog>
-      <DialogTrigger asChild>
-        <div className=" bg-white p-4 rounded-lg shadow hover:shadow-lg transition w-[250px]">
-          <Image
-            src={img}
-            alt={title}
-            width={400}
-            height={200}
-            className="w-full h-32 object-cover rounded mb-2 grayscale hover:grayscale-0 transition-all duration-500"
-          />
-          <h3 className="font-semibold text-zinc-800 uppercase">{title}</h3>
-          <div className="flex flex-wrap gap-1 mt-2">
-            {tools.map((tool) => (
-              <Badge key={tool} className="bg-zinc-800 text-white">
-                {tool}
-              </Badge>
-            ))}
-          </div>
+      <div className=" bg-white p-4 rounded-lg shadow hover:shadow-lg transition w-[250px]">
+        <Image
+          src={img}
+          alt={title}
+          width={400}
+          height={200}
+          className="w-full h-32 object-cover rounded mb-2 grayscale hover:grayscale-0 transition-all duration-500"
+        />
+        <h3 className="font-semibold text-zinc-800 uppercase">{title}</h3>
+        <div className="flex flex-wrap gap-1 mt-2">
+          {tools.map((tool) => (
+            <Badge key={tool} className="bg-zinc-800 text-white">
+              {tool}
+            </Badge>
+          ))}
+        </div>
+        <DialogTrigger asChild>
           <div className="pt-3 ">
             <Button className="p-3 cursor-pointer container font-bold text-lg text-zinc-200 bg-zinc-900 hover:bg-zinc-400 content-center items-center">
               MORE INFO
             </Button>
           </div>
-        </div>
-      </DialogTrigger>
+        </DialogTrigger>
+      </div>
 
       <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto bg-zinc-950 text-white border-zinc-700">
         <div className="p-6 space-y-4">
