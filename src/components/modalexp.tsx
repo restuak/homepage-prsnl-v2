@@ -4,6 +4,8 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+
+// import { Divide } from "lucide-react";
 // import imagemin from "imagemin";
 // import imageminJpegtran from "imagemin-jpegtran";
 // import imageminPngquant from "imagemin-pngquant";
@@ -58,9 +60,9 @@ export default function ModalExp({
               priority
               className="w-full h-25 object-cover  rounded mb-2 grayscale hover:grayscale-0 transition-all duration-500"
             />
-            <h5 className="font-semibold text-xl lg:text-2xl text-zinc-800 uppercase text-center floating-label hover:text-zinc-500">
+            <div className="font-semibold text-xl lg:text-2xl text-zinc-800 uppercase text-center floating-label hover:text-zinc-500">
               {title}
-            </h5>
+            </div>
           </div>
         </button>
       </DialogTrigger>
@@ -108,12 +110,14 @@ export default function ModalExp({
               <Button className="font-bold text-lg text-zinc-900 bg-zinc-300 hover:bg-zinc-600">
                 <a href="#">LIVE</a>
               </Button>
+              
               <Button className="font-bold text-lg text-zinc-900 bg-zinc-300 hover:bg-zinc-600">
                 <a href="#">REPO</a>
               </Button>
             </div>
           </div>
         </div>
+
       </DialogContent>
     </Dialog>
   );
