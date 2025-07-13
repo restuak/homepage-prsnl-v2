@@ -140,31 +140,31 @@ const GridDistortion: React.FC<GridDistortionProps> = ({
       vY: 0,
     };
 
-    const handleMouseMove = (e: MouseEvent) => {
-      const rect = container.getBoundingClientRect();
-      const x = (e.clientX - rect.left) / rect.width;
-      const y = 1 - (e.clientY - rect.top) / rect.height;
-      mouseState.vX = x - mouseState.prevX;
-      mouseState.vY = y - mouseState.prevY;
-      Object.assign(mouseState, { x, y, prevX: x, prevY: y });
-    };
+    // const handleMouseMove = (e: MouseEvent) => {
+    //   const rect = container.getBoundingClientRect();
+    //   const x = (e.clientX - rect.left) / rect.width;
+    //   const y = 1 - (e.clientY - rect.top) / rect.height;
+    //   mouseState.vX = x - mouseState.prevX;
+    //   mouseState.vY = y - mouseState.prevY;
+    //   Object.assign(mouseState, { x, y, prevX: x, prevY: y });
+    // };
 
-    const handleMouseLeave = () => {
-      dataTexture.needsUpdate = true;
-      Object.assign(mouseState, {
-        x: 0,
-        y: 0,
-        prevX: 0,
-        prevY: 0,
-        vX: 0,
-        vY: 0,
-      });
-    };
+    // const handleMouseLeave = () => {
+    //   dataTexture.needsUpdate = true;
+    //   Object.assign(mouseState, {
+    //     x: 0,
+    //     y: 0,
+    //     prevX: 0,
+    //     prevY: 0,
+    //     vX: 0,
+    //     vY: 0,
+    //   });
+    // };
 
-    container.addEventListener("mousemove", handleMouseMove);
-    container.addEventListener("mouseleave", handleMouseLeave);
-    window.addEventListener("resize", handleResize);
-    handleResize();
+    // container.addEventListener("mousemove", handleMouseMove);
+    // container.addEventListener("mouseleave", handleMouseLeave);
+    // window.addEventListener("resize", handleResize);
+    // handleResize();
 
     const animate = () => {
       requestAnimationFrame(animate);
@@ -199,16 +199,16 @@ const GridDistortion: React.FC<GridDistortionProps> = ({
     };
     animate();
 
-    return () => {
-      container.removeEventListener("mousemove", handleMouseMove);
-      container.removeEventListener("mouseleave", handleMouseLeave);
-      window.removeEventListener("resize", handleResize);
-      renderer.dispose();
-      geometry.dispose();
-      material.dispose();
-      dataTexture.dispose();
-      if (uniforms.uTexture.value) uniforms.uTexture.value.dispose();
-    };
+    // return () => {
+    //   container.removeEventListener("mousemove", handleMouseMove);
+    //   container.removeEventListener("mouseleave", handleMouseLeave);
+    //   window.removeEventListener("resize", handleResize);
+    //   renderer.dispose();
+    //   geometry.dispose();
+    //   material.dispose();
+    //   dataTexture.dispose();
+    //   if (uniforms.uTexture.value) uniforms.uTexture.value.dispose();
+    // };
   }, [grid, mouse, strength, relaxation, imageSrc]);
 
   return (

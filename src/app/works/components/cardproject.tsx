@@ -44,7 +44,14 @@ export default function ProjectCardCard({
         </div>
         <DialogTrigger asChild>
           <div className="pt-3 ">
-            <Button className="p-3 cursor-pointer container font-bold text-lg text-zinc-200 bg-zinc-900 hover:bg-zinc-400 content-center items-center">
+            <Button
+              className="p-3 cursor-pointer container font-bold text-lg text-zinc-200 bg-zinc-900 hover:bg-zinc-400 content-center items-center"
+              aria-haspopup="dialog"
+              aria-expanded="false"
+              aria-controls="radix-<ID>"
+              data-state="closed"
+              data-slot="dialog-trigger"
+            >
               MORE INFO
             </Button>
           </div>

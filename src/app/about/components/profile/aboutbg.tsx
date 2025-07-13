@@ -18,10 +18,10 @@ export default function AboutBg() {
           <div style={{}}>
             <GridDistortion
               imageSrc="../restuaka.webp"
-              grid={200}
-              mouse={0.1}
-              strength={0.1}
-              relaxation={0.9}
+              // grid={200}
+              // mouse={0.1}
+              // strength={0.1}
+              // relaxation={0.9}
               className="h-screen w-full"
             />
           </div>
