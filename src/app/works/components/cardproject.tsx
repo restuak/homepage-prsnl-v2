@@ -35,11 +35,9 @@ export default function ProjectCardCard({
             alt={title}
             width={400}
             height={200}
-            className="w-full h-32 object-cover rounded mb-2"
+            className="w-full h-32 object-cover rounded mb-2 grayscale hover:grayscale-0 transition-all duration-500"
           />
-          <h3 className="font-semibold text-zinc-800 uppercase">
-            {title}
-          </h3>
+          <h3 className="font-semibold text-zinc-800 uppercase">{title}</h3>
           <div className="flex flex-wrap gap-1 mt-2">
             {tools.map((tool) => (
               <Badge key={tool} className="bg-zinc-800 text-white">
@@ -79,7 +77,7 @@ export default function ProjectCardCard({
                   alt={`Screenshot ${i + 1}`}
                   width={200}
                   height={150}
-                  className="rounded shadow border border-zinc-800"
+                  className="rounded shadow border border-zinc-800 "
                 />
               ))}
             </div>

@@ -54,7 +54,7 @@ export default function Welcome() {
               <span className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-zinc-600  ">
                 <p className="animate-fade-right animate-once animate-delay-1000 animate-ease-in-out ">
                   <span className="text-zinc-400 hover:text-zinc-600">
-                  web map{" "}
+                    web map{" "}
                   </span>
                   based{" "}
                   <span className="text-zinc-400 hover:text-zinc-600">gis</span>
@@ -66,7 +66,9 @@ export default function Welcome() {
         <div className="absolute bottom-0 left-0 w-full flex justify-center pb-10 overflow-y-hidden">
           <div className="animate-fade-up animate-once animate-delay-2000 animate-ease-out z-20 flex flex-col items-center cursor-pointer">
             <span className="animate-bounce text-4xl text-bold text-zinc-600">
-              <IoIosArrowDown />
+              <a href="#about">
+                <IoIosArrowDown />
+              </a>
             </span>
           </div>
         </div>

@@ -28,12 +28,12 @@ export default function Contact() {
             <div className="max-w-md">
               <h1 className="mb-5 text-5xl font-bold">LET'S CONNECT</h1>
               <p className="mb-5">GET IN TOUCH HERE GUYS!</p>
-              <div className="relative flex flex-wrap justify-center items-center m-5 pt-10">
+              <div className="relative flex flex-wrap justify-center items-center content-center m-5 pt-10">
                 <a
                   href="mailto:restuaka.works@gmail.com"
                   rel="noopener noreferrer"
                   aria-label="Email Restu Aka"
-                  className="m-3 flex justify-center items-center bg-zinc-500 w-20 h-20 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
+                  className="m-3 w-full flex  justify-center items-center bg-zinc-500 w-20 h-20 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
                 >
                   <MdOutlineMailOutline className="w-13 h-13 zinc-200" />
                 </a>
