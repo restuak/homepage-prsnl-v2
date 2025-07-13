@@ -51,7 +51,7 @@ export default function ModalExp({
           <div>
             <Image
               src={img}
-              alt={title}
+              alt="Selected Project"
               width={200}
               height={100}
               quality={50}
