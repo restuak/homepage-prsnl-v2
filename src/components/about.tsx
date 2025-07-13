@@ -5,8 +5,8 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section className=" p-5 pt-5" id="about">
-      <div className="h-100% max-w-screen-xl pt-1 mx-auto">
+    <section className=" p-5 " id="about">
+      <div className="h-100% max-w-screen-xl pt-[12%] mx-auto">
         <div className="flex flex-col items-center ">
           <motion.span
             initial={{ opacity: 0, y: -30 }}

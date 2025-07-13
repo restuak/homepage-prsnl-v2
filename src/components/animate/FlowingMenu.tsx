@@ -90,10 +90,10 @@ const MenuItem: React.FC<MenuItemProps> = ({ link, text, image, tech }) => {
             <span key={index}>{item}</span>
           ))}
         </div>
-        {/* <div
+        <div
           className="w-[200px] h-[7vh] my-[2em] mx-[2vw] p-[1em_0] rounded-[50px] bg-cover bg-center"
           style={{ backgroundImage: `url(${image})` }}
-        /> */}
+        />
       </React.Fragment>
     ));
   }, [text, tech]);
