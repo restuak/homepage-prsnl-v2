@@ -43,15 +43,3 @@ export const SkillAndTech = {
     ],
   },
 };
-
-
-// export const techList = [
-//   { name: "HTML", icon: React.createElement(FaHtml5, { className: "" }) },
-//   { name: "CSS", icon: React.createElement(FaCss3Alt, { className: "" }) },
-//   { name: "JavaScript", icon: React.createElement(FaJs, { className: "" }) },
-//   { name: "TypeScript", icon: React.createElement(FaJs, { className: "" }) },
-//   { name: "React", icon: React.createElement(FaReact, { className: "" }) },
-//   { name: "NextJS", icon: React.createElement(SiNextdotjs, { className: "" }) },
-//   { name: "TailwindCSS", icon: React.createElement(SiTailwindcss, { className: "" }) },
-//   { name: "Bootstrap", icon: React.createElement(FaBootstrap, { className: "" }) },
-// ];

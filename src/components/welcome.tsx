@@ -66,7 +66,7 @@ export default function Welcome() {
         <div className="absolute bottom-0 left-0 w-full flex justify-center pb-10 overflow-y-hidden">
           <div className="animate-fade-up animate-once animate-delay-2000 animate-ease-out z-20 flex flex-col items-center cursor-pointer">
             <span className="animate-bounce text-4xl text-bold text-zinc-600">
-              <a href="#about">
+              <a href="#about" aria-label="Scroll down">
                 <IoIosArrowDown />
               </a>
             </span>

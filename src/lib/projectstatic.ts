@@ -2,7 +2,7 @@ export const projectDetail = [
   {
     id: "1",
     title: "Web App GIS Road Analyst in Java",
-    img: "/prj/gis1.jpg",
+    img: "/prj/gis1.webp",
     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
     features: [
@@ -12,16 +12,16 @@ export const projectDetail = [
       "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
     ],
     images: [
-      "/prj/gis5.jpg",
-      "/prj/gis3.jpg",
-      "/prj/gis2.jpg",
-      "/prj/gis1.jpg",
+      "/prj/gis5.webp",
+      "/prj/gis3.webp",
+      "/prj/gis2.webp",
+      "/prj/gis1.webp",
     ],
   },
   {
     id: "2",
     title: "Web-GIS Landslide in Central Java",
-    img: "/prj/gis4.jpg",
+    img: "/prj/gis4.webp",
     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
     features: [
@@ -31,16 +31,16 @@ export const projectDetail = [
       "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
     ],
     images: [
-      "/prj/gis3.jpg",
-      "/prj/gis1.jpg",
-      "/prj/gis2.jpg",
-      "/prj/gis4.jpg",
+      "/prj/gis3.webp",
+      "/prj/gis1.webp",
+      "/prj/gis2.webp",
+      "/prj/gis4.webp",
     ],
   },
   {
     id: "3",
     title: "Web GIS Road Analyst in Kab. Sleman",
-    img: "/prj/gis5.jpg",
+    img: "/prj/gis5.webp",
     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
     features: [
@@ -50,16 +50,16 @@ export const projectDetail = [
       "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
     ],
     images: [
-      "/prj/gis2.jpg",
-      "/prj/gis3.jpg",
-      "/prj/gis1.jpg",
-      "/prj/gis4.jpg",
+      "/prj/gis2.webp",
+      "/prj/gis3.webp",
+      "/prj/gis1.webp",
+      "/prj/gis4.webp",
     ],
   },
   {
     id: "4",
     title: "Web App GIS River Analyst in Indonesia",
-    img: "/prj/gis3.jpg",
+    img: "/prj/gis3.webp",
     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
     features: [
@@ -69,16 +69,16 @@ export const projectDetail = [
       "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
     ],
     images: [
-      "/prj/gis4.jpg",
-      "/prj/gis3.jpg",
-      "/prj/gis1.jpg",
-      "/prj/gis5.jpg",
+      "/prj/gis4.webp",
+      "/prj/gis3.webp",
+      "/prj/gis1.webp",
+      "/prj/gis5.webp",
     ],
   },
   {
     id: "5",
     title: "Web App GIS Analyst for Banking",
-    img: "/prj/gis2.jpg",
+    img: "/prj/gis2.webp",
     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
     features: [
@@ -88,16 +88,16 @@ export const projectDetail = [
       "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
     ],
     images: [
-      "/prj/gis1.jpg",
-      "/prj/gis2.jpg",
-      "/prj/gis3.jpg",
-      "/prj/gis4.jpg",
+      "/prj/gis1.webp",
+      "/prj/gis2.webp",
+      "/prj/gis3.webp",
+      "/prj/gis4.webp",
     ],
   },
   {
     id: "6",
     title: "Web-GIS Landslide in Central Java",
-    img: "/prj/gis4.jpg",
+    img: "/prj/gis4.webp",
     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
     desc: "This project involves developing a web-based GIS application for road analysis using Java. It integrates various mapping libraries and tools to provide interactive and analytical features for geographic data visualization and manipulation.",
     features: [
@@ -107,10 +107,10 @@ export const projectDetail = [
       "Export maps and analysis reports in formats like PDF, Excel, or GeoJSON for offline use or documentation.",
     ],
     images: [
-      "/prj/gis3.jpg",
-      "/prj/gis1.jpg",
-      "/prj/gis2.jpg",
-      "/prj/gis4.jpg",
+      "/prj/gis3.webp",
+      "/prj/gis1.webp",
+      "/prj/gis2.webp",
+      "/prj/gis4.webp",
     ],
   },
 ];
@@ -119,13 +119,13 @@ export const projectDetail = [
 //   {
 //     id: "1",
 //     title: "1Web App GIS Road Analyst in Java",
-//     img: "../restuaka.jpg",
+//     img: "../restuaka.webp",
 //     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
 //   },
 //   {
 //     id: "2",
 //     title: "1Web App GIS Road Analyst in Java",
-//     img: "../restuaka.jpg",
+//     img: "../restuaka.webp",
 //     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
 //   },
 //   {
@@ -154,7 +154,7 @@ export const projectDetail = [
 //       "Attendance system using Leaflet map.",
 //     ],
 //     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
-//     img: ["/restuaka.jpg", "/restuaka.jpg", "/restuaka.jpg"],
+//     img: ["/restuaka.webp", "/restuaka.webp", "/restuaka.webp"],
 //   },
 //   {
 //     id: "2",
@@ -167,7 +167,7 @@ export const projectDetail = [
 //       "Attendance system using Leaflet map.",
 //     ],
 //     tools: ["NextJS", "TailwindCSS", "MapBox", "Leaflet", "QGIS"],
-//     img: ["/restuaka.jpg", "/restuaka.jpg", "/restuaka.jpg"],
+//     img: ["/restuaka.webp", "/restuaka.webp", "/restuaka.webp"],
 //   },
 //   {
 //     id: "3",
