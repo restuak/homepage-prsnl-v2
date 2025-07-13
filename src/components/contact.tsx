@@ -33,36 +33,36 @@ export default function Contact() {
                   href="mailto:restuaka.works@gmail.com"
                   rel="noopener noreferrer"
                   aria-label="Email Restu Aka"
-                  className="m-3 flex justify-center items-center bg-zinc-500 w-17 h-17 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
+                  className="m-3 flex justify-center items-center bg-zinc-500 w-15 h-15 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
                 >
-                  <MdOutlineMailOutline className="w-12 h-12 zinc-200" />
+                  <MdOutlineMailOutline className="w-10 h-10 zinc-200" />
                 </a>
                 <a
                   href="https://instagram.com/restu.aka"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Instagram Restu Aka"
-                  className="m-3 flex justify-center items-center bg-zinc-500 w-17 h-17 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
+                  className="m-3 flex justify-center items-center bg-zinc-500 w-15 h-15 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
                 >
-                  <FaInstagram className="w-12 h-12 zinc-200" />
+                  <FaInstagram className="w-10 h-10 zinc-200" />
                 </a>
                 <a
                   href="https://github.com/restuak"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Github Restu Aka"
-                  className="m-3 flex justify-center items-center bg-zinc-500 w-17 h-17 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
+                  className="m-3 flex justify-center items-center bg-zinc-500 w-15 h-15 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
                 >
-                  <FaGithub className="w-12 h-12 zinc-200" />
+                  <FaGithub className="w-10 h-10 zinc-200" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/restuak/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn Restu Aka"
-                  className="m-3 flex justify-center items-center bg-zinc-500 w-17 h-17 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
+                  className="m-3 flex justify-center items-center bg-zinc-500 w-15 h-15 rounded-full text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
                 >
-                  <FaLinkedin className="w-12 h-12 zinc-200" />
+                  <FaLinkedin className="w-10 h-10 zinc-200" />
                 </a>
               </div>
             </div>
