@@ -27,7 +27,7 @@ export default function ModalExp({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <div className="cursor-pointer w-full h-[180px] mb-10 p-5 bg-zinc-200 rounded-b-2xl shadow hover:shadow-lg transition ">
+        <div className="cursor-pointer w-full h-[190px] mb-10 p-5 bg-zinc-200 rounded-b-2xl shadow hover:shadow-lg transition ">
           <div>
             <Image
               src={img}
@@ -40,19 +40,6 @@ export default function ModalExp({
               {title}
             </h5>
           </div>
-          {/* <div className="flex flex-wrap gap-1 mt-2">
-          {tools.map((tool) => (
-            <Badge key={tool} className="bg-zinc-800 text-white">
-              {tool}
-            </Badge>
-          ))}
-         </div> */}
-          {/* 
-          <div className="pt-3 ">
-            <Button className="p-3 cursor-pointer container font-bold text-lg text-zinc-200 bg-zinc-900 hover:bg-zinc-400 content-center items-center">
-              MORE INFO
-            </Button>
-          </div> */}
         </div>
       </DialogTrigger>
 
@@ -109,5 +96,3 @@ export default function ModalExp({
     </Dialog>
   );
 }
-
-

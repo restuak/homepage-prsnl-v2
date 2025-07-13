@@ -1,7 +1,7 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, ReactNode } from "react";
-import { SkillAndTech } from "./staticskill";
+import { SkillAndTech } from "../../../../lib/staticskill";
 import { IconTree, IconType } from "react-icons/lib";
 // import { techList } from "./static";
 

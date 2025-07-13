@@ -1,7 +1,5 @@
 "use client";
 
-// components/ProjectCardCard.tsx
-
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -106,5 +104,3 @@ export default function ProjectCardCard({
     </Dialog>
   );
 }
-
-

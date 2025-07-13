@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import ScrollUp from "@/components/animate/scrollup";
+import ScrollUp from "@/components/scrollup";
 
 export default function Contact() {
   return (
@@ -14,7 +14,7 @@ export default function Contact() {
           style={
             {
               // backgroundImage:
-              //   "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+              //   "url()",
             }
           }
         >

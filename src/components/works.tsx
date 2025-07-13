@@ -4,8 +4,8 @@ import Link from "next/link";
 // import FlowingMenu from "./animate/FlowingMenu";
 // import { SampleProject } from "./animate/statisworkdepan";
 // import ProjectCardCard from "@/app/works/components/cardproject";
-import ModalExp from "@/app/works/components/modalexp";
-import { projectDetail } from "@/app/works/components/projectstatic";
+import ModalExp from "@/components/modalexp";
+import { projectDetail } from "@/lib/projectstatic";
 export default function Works() {
   return (
     <section className=" p-5 pt-0" id="works">
@@ -44,13 +44,11 @@ export default function Works() {
             </p>
           </motion.span>
 
-        
-            <div>
-              {projectDetail.slice(0, 3).map((proj) => (
-                <ModalExp key={proj.id} {...proj} />
-              ))}
-            </div>
-        
+          <div>
+            {projectDetail.slice(0, 3).map((proj) => (
+              <ModalExp key={proj.id} {...proj} />
+            ))}
+          </div>
 
           <motion.span
             initial={{ opacity: 0, y: 30 }}

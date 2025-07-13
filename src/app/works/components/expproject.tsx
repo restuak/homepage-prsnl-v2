@@ -1,9 +1,8 @@
 "use client";
-import ScrollUp from "@/components/animate/scrollup";
+
+import ScrollUp from "@/components/scrollup";
 import FooterIn from "@/components/footerin";
-// import ModalExp from "./modalexp";
-import { Button } from "@/components/ui/button";
-import { projectDetail } from "./projectstatic";
+import { projectDetail } from "../../../lib/projectstatic";
 import ProjectCardCard from "./cardproject";
 
 export default function ExpProject() {

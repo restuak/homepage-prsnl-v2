@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Essays } from "./statichobbies";
-import ScrollUp from "@/components/animate/scrollup";
+import { Essays } from "../../../../lib/statichobbies";
+import ScrollUp from "@/components/scrollup";
 import FooterIn from "@/components/footerin";
 export default function Hobbies() {
   return (
