@@ -56,7 +56,7 @@ export default function Works() {
             transition={{ duration: 0.8 }}
           >
             <Link
-              href="/works"
+              href="/works/#project"
               rel="author"
               className="m-3 p-5 font-bold flex flex-auto justify-center items-center bg-zinc-500 rounded-b-2xl text-zinc-200 hover:bg-zinc-600 transition-all ease-in-out duration-300"
             >

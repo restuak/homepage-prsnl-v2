@@ -37,7 +37,9 @@ export default function ProjectCardCard({
             height={200}
             className="w-full h-32 object-cover rounded mb-2"
           />
-          <h3 className="font-semibold text-zinc-800">{title}</h3>
+          <h3 className="font-semibold text-zinc-800 uppercase">
+            {title}
+          </h3>
           <div className="flex flex-wrap gap-1 mt-2">
             {tools.map((tool) => (
               <Badge key={tool} className="bg-zinc-800 text-white">
@@ -46,17 +48,17 @@ export default function ProjectCardCard({
             ))}
           </div>
           <div className="pt-3 ">
-            <Button className="p-3 cursor-pointer container font-bold text-lg bg-zinc-900 hover:bg-zinc-400 content-center items-center">
+            <Button className="p-3 cursor-pointer container font-bold text-lg text-zinc-200 bg-zinc-900 hover:bg-zinc-400 content-center items-center">
               MORE INFO
             </Button>
           </div>
         </div>
       </DialogTrigger>
 
-      <DialogContent className="max-w-4xl bg-zinc-950 text-white border-zinc-700">
+      <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto bg-zinc-950 text-white border-zinc-700">
         <div className="p-6 space-y-4">
-          <h2 className="text-2xl font-bold">{title}</h2>
-          <p className="text-sm text-zinc-400">{desc}</p>
+          <h2 className="text-2xl font-bold uppercase text-center">{title}</h2>
+          <p className="text-sm text-zinc-300">{desc}</p>
 
           <div>
             <h3 className="font-semibold mb-1">Features:</h3>
@@ -82,12 +84,23 @@ export default function ProjectCardCard({
               ))}
             </div>
             <h4 className="font-semibold mt-3 mb-1">Tools & Tech</h4>
-            <div className="flex flex-wrap gap-1 mt-2 ">
+            <div className="flex flex-wrap gap-1 mt-2 text-center justify-center items-center object-center ">
               {tools.map((tool) => (
-                <Badge key={tool} className="bg-zinc-800 text-white text-lg hover:bg-zinc-600">
+                <Badge
+                  key={tool}
+                  className="bg-zinc-800 text-white text-sm hover:bg-zinc-600"
+                >
                   {tool}
                 </Badge>
               ))}
+            </div>
+            <div className="pt-3 p-3 cursor-pointer container flex justify-center gap-10 ">
+              <Button className="font-bold text-lg text-zinc-900 bg-zinc-300 hover:bg-zinc-600">
+                <a href="#">LIVE</a>
+              </Button>
+              <Button className="font-bold text-lg text-zinc-900 bg-zinc-300 hover:bg-zinc-600">
+                <a href="#">REPO</a>
+              </Button>
             </div>
           </div>
         </div>
@@ -97,60 +110,3 @@ export default function ProjectCardCard({
 }
 
 
-// import {
-//   Card,
-//   CardAction,
-//   CardContent,
-//   CardDescription,
-//   CardFooter,
-//   CardHeader,
-//   CardTitle,
-// } from "@/components/ui/card";
-
-// type ProjectcardProp = {
-//   title: string;
-//   img: string;
-//   tools: string[];
-// };
-// export default function ProjectCardCard({
-//   title,
-//   img,
-//   tools,
-// }: ProjectcardProp) {
-//   return (
-//     <Card>
-//       <CardHeader className="bg-zinc-500 mt-2 items-center card w-70 md:w-95 shadow-sm">
-//         <CardTitle className="card-title uppercase justify-center">
-//           {title}
-//         </CardTitle>
-//         <CardDescription>Card Description</CardDescription>
-//         <CardAction>{img}</CardAction>
-//       </CardHeader>
-//       <CardContent>
-//         <p>Card Content</p>
-//       </CardContent>
-//       <CardFooter>{tools}</CardFooter>
-//     </Card>
-//   );
-// }
-
-// // import Image from "next/image";
-
-// type ProjectcardProp = {
-//   title: string;
-//   img: string;
-//   tools: string[];
-// };
-// export default function ProjectCardCard({ title, img, tools }: ProjectcardProp) {
-//   return (
-//     <div className="bg-zinc-500 mt-2 items-center card w-70 md:w-95 shadow-sm">
-//       <figure>{img}</figure>
-//       <div className="card-body bg-zinc-800">
-//         <h2 className="card-title uppercase justify-center">{title}</h2>
-//         <div className="card-actions justify-center">
-//           <div className="badge badge-outline">{tools}</div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }

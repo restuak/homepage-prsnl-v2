@@ -8,11 +8,11 @@ import ProjectCardCard from "./cardproject";
 
 export default function ExpProject() {
   return (
-    <main className="bg-black">
+    <main className="bg-black" id="project">
       <div className="h-100% max-w-screen-xl pt-1 mx-auto">
         <div className="container p-5 flex flex-col items-center pt-[5%]">
           <p className="p-5 animate-fade-down font-bold text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl text-zinc-200">
-            PROJECT
+            PROJECTS
           </p>
           <p className=" m-6 mt-0 text-lg sm:text-lg md:text-xl lg:text-2xl xl:text-2xl justify-center content-center text-center text-zinc-600">
             These are some projects that I have worked on, most of which are Web
