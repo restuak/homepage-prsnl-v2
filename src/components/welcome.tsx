@@ -15,12 +15,12 @@ export default function Welcome() {
     >
       <div className="font-bold ">
         <Image
-          src="/restu.jpg"
-          alt="Restu hero image"
-          width={300}
-          height={400}
+          src="/lcp.jpg"
+          alt="Hidden but LCP"
+          fill
+          sizes="100vw"
           priority
-          className="opacity-90 pointer-events-none absolute -z-10"
+          className="opacity-0 pointer-events-none absolute top-0 left-0 w-full h-full object-cover"
           aria-hidden="true"
         />
         <h1
