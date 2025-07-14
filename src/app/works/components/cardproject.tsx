@@ -49,7 +49,7 @@ export default function ProjectCardCard({
               className="p-3 cursor-pointer container font-bold text-lg text-zinc-200 bg-zinc-900 hover:bg-zinc-400 content-center items-center"
               aria-haspopup="dialog"
               aria-expanded="false"
-              aria-controls="radix-<ID>"
+              aria-controls="radix-xyz"
               data-state="closed"
               data-slot="dialog-trigger"
             >

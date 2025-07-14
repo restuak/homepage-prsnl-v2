@@ -23,7 +23,7 @@ export default function HomeView() {
     <main
       className={`${AlbertSans.className} bg-[url(/bg.svg)] bg-cover bg-no-repeat bg-center bg-[#09090b]`}
     >
-      <div className="" id="smooth-content">
+      <div className="" id="home">
         <Navbar />
 
         <Welcome />

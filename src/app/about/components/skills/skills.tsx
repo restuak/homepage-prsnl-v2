@@ -2,8 +2,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, ReactNode } from "react";
 import { SkillAndTech } from "../../../../lib/staticskill";
-import { IconTree, IconType } from "react-icons/lib";
-// import { techList } from "./static";
+import { IconType } from "react-icons/lib";
 
 type Web = {
   title: string;
@@ -25,9 +24,9 @@ type Webgis = {
 };
 
 type tech = {
-    icon: IconType;
-    name: string;
-  }[];
+  icon: IconType;
+  name: string;
+}[];
 
 interface SkillAndTech {
   web: Web;
@@ -61,17 +60,9 @@ function SkillCard({
           : " bg-zinc-600 border-zinc-900 hover:bg-zinc-300/20 hover:border-zinc-600"
       }`}
       whileHover={{
-        scale: 1.05,
-        rotateY: 5,
+        scale: 1.03,
       }}
-      whileTap={{ scale: 0.95 }}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{
-        type: "spring",
-        stiffness: 300,
-        damping: 20,
-      }}
+      whileTap={{ scale: 0.98 }}
     >
       {!isSelected && (
         <div className="absolute inset-0 rounded-2xl transition-opacity duration-200 opacity-0 group-hover:opacity-50 bg-gradient-to-r from-zinc-600/20 to-zinc-600/40 blur-xl" />
@@ -156,10 +147,10 @@ export default function Skills() {
           transition={{ duration: 0.8 }}
           className="text-center space-y-4 mb-5"
         >
-          <h2 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-zinc-300">
+          <h2 className="text-2xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-zinc-200">
             SKILLS
           </h2>
-          <p className="text-zinc-500  mx-auto p-3 text-lg max-w-xl text-justify">
+          <p className="text-zinc-400  mx-auto p-3 text-[17px] max-w-xl text-justify">
             My skills in Fullstack Web Development and Web App GIS Development
             encompass a broad spectrum of technologies, frameworks, and tools.
             Dive into the categories below to explore my expertise in detail.
@@ -179,9 +170,9 @@ export default function Skills() {
             return (
               <motion.div
                 key={key}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 0 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
+                transition={{ delay: index * 0 }}
               >
                 <SkillCard
                   skill={transformedSkill}
