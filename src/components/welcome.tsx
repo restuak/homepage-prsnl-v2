@@ -17,8 +17,8 @@ export default function Welcome() {
         <Image
           src="/restu.jpg"
           alt="Restu hero image"
-          width={1200}
-          height={600}
+          width={300}
+          height={400}
           priority
           className="opacity-90 pointer-events-none absolute -z-10"
           aria-hidden="true"
