@@ -67,7 +67,7 @@ export default function ModalExp({
         </button>
       </DialogTrigger>
 
-      <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto bg-zinc-950 text-white border-zinc-700">
+      <DialogContent className="max-w-full max-h-[80vh] overflow-y-auto bg-zinc-950 text-white border-zinc-700 ">
         <div className="p-6 space-y-4">
           <h2 className="text-2xl font-bold uppercase text-center">{title}</h2>
           <p className="text-sm text-zinc-300">{desc}</p>
@@ -91,7 +91,7 @@ export default function ModalExp({
                   alt={`Screenshot ${i + 1}`}
                   width={200}
                   height={150}
-                  className="rounded shadow border border-zinc-800 "
+                  className="rounded shadow border border-zinc-800"
                 />
               ))}
             </div>
@@ -110,14 +110,13 @@ export default function ModalExp({
               <Button className="font-bold text-lg text-zinc-900 bg-zinc-300 hover:bg-zinc-600">
                 <a href="#">LIVE</a>
               </Button>
-              
+
               <Button className="font-bold text-lg text-zinc-900 bg-zinc-300 hover:bg-zinc-600">
                 <a href="#">REPO</a>
               </Button>
             </div>
           </div>
         </div>
-
       </DialogContent>
     </Dialog>
   );

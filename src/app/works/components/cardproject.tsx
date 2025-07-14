@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
+
 type Props = {
   id: string;
   title: string;
@@ -82,7 +83,7 @@ export default function ProjectCardCard({
                   alt={`Screenshot ${i + 1}`}
                   width={200}
                   height={150}
-                  className="rounded shadow border border-zinc-800 "
+                  className="rounded shadow border border-zinc-800"
                 />
               ))}
             </div>
