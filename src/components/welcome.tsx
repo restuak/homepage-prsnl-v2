@@ -19,8 +19,9 @@ export default function Welcome() {
           alt="Restu hero image"
           width={300}
           height={400}
+          fetchPriority="high"
           priority
-          className="opacity-100 lg:w-3xl pointer-events-none absolute -z-1"
+          className="opacity-90 lg:w-3xl pointer-events-none absolute z-1"
           aria-hidden="true"
         />
         <h1
