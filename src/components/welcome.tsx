@@ -20,7 +20,7 @@ export default function Welcome() {
           width={300}
           height={400}
           priority
-          className="opacity-90 pointer-events-none absolute -z-10"
+          className="opacity-98 w-[300px] lg:w-3xl pointer-events-none absolute -z-10"
           aria-hidden="true"
         />
         <h1
