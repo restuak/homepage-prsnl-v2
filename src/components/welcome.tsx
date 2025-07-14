@@ -17,10 +17,10 @@ export default function Welcome() {
         <Image
           src="/lcp.jpg"
           alt="Restu hero image"
-          fill
-          sizes="100vw"
+          width={300}
+          height={400}
           priority
-          className="opacity-100 pointer-events-none absolute -z-10"
+          className="w-3/5 h-1/2 opacity-100 pointer-events-none absolute -z-10"
           aria-hidden="true"
         />
         <h1
