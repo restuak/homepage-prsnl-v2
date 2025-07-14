@@ -16,11 +16,11 @@ export default function Welcome() {
       <div className="font-bold ">
         <Image
           src="/lcp.jpg"
-          alt="Hidden but LCP"
+          alt="Restu hero image"
           fill
           sizes="100vw"
           priority
-          className="opacity-0 pointer-events-none absolute top-0 left-0 w-full h-full object-cover"
+          className="opacity-100 pointer-events-none absolute -z-10"
           aria-hidden="true"
         />
         <h1
