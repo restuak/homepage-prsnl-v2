@@ -56,8 +56,7 @@ export default function ModalExp({
               alt="Selected Project"
               width={200}
               height={100}
-              quality={60}
-              priority
+              quality={65}
               className="w-full h-25 object-cover  rounded mb-2 grayscale hover:grayscale-0 transition-all duration-500"
             />
             <div className="font-semibold text-xl lg:text-2xl text-zinc-800 uppercase text-center floating-label hover:text-zinc-500">
