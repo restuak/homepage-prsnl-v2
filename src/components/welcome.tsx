@@ -15,7 +15,7 @@ export default function Welcome() {
     >
       <div className="font-bold ">
         <Image
-          src="/lcp.jpg"
+          src="/lcp.webp"
           alt="Restu hero image"
           width={300}
           height={400}
