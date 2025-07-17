@@ -1,16 +1,7 @@
-"use client"
-import { useEffect } from "react";
+
 import { motion } from "motion/react";
 export default function Quotes() {
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      alert(
-        "Sebagian besar data project dll, hanya mockup alias Lorem Ipsum"
-      );
-    }, 1000);
 
-    return () => clearTimeout(timer);
-  }, []);
   return (
     <section className="py-32">
       <div className="container mx-auto">

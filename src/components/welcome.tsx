@@ -1,3 +1,5 @@
+"use client";
+import { useEffect } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { Albert_Sans } from "next/font/google";
 import Image from "next/image";
@@ -8,6 +10,13 @@ const ASans = Albert_Sans({
   preload: true,
 });
 export default function Welcome() {
+  useEffect(() => {
+    const alertDisklaimer = setTimeout(() => {
+      alert("Sebagian besar data project dll, hanya mockup alias Lorem Ipsum");
+    }, 1500);
+
+    return () => clearTimeout(alertDisklaimer);
+  }, []);
   return (
     <main
       id="main"
